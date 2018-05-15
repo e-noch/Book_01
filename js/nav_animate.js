@@ -1,4 +1,10 @@
 // JavaScript Document
+/*
+** Version 1.0.0
+** by Enoch Daniel Adams
+** 
+**
+*/
 //jQuery code
 $(document).ready (function(){
 	//add to hide header
