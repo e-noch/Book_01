@@ -50,7 +50,7 @@ https://cssicon.space/#/
     border-radius: 2px;
     transition: all 0.3s ease;
   }*/ }
-  .iconWrapper .icon {
+  .iconWrapper .icon, .icon2{
     z-index: 1; }
   .iconWrapper:hover {
     cursor: pointer;
@@ -69,6 +69,20 @@ https://cssicon.space/#/
       content: '';
       position: absolute;
       display: block; }
+
+.icon2 {
+  position: absolute; }
+  .icon2:before, .icon2:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon2 i {
+    position: absolute; }
+    .icon2 i:before, .icon2 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
+
 
 .cmd.icon {
   margin-left: 8px;
@@ -5495,6 +5509,30 @@ https://cssicon.space/#/
     left: 4px;
     top: -3px; }
 
+/*.aMap.map.icon {
+  margin-left: 8px;
+  margin-top: 4px;
+  width: 4px;
+  height: 10px;
+  border: solid 1px #333333;
+  border-radius: 1px;
+  -webkit-transform: skewY(20deg);
+  transform: skewY(20deg); }
+  .aMap.map.icon:before, .aMap.map.icon:after {
+    width: 4px;
+    height: 10px;
+    border: solid 1px #333333;
+    border-radius: 1px;
+    -webkit-transform: skewY(-40deg);
+    transform: skewY(-40deg); }
+  .aMap.map.icon:before {
+    left: -6px;
+    top: 1px; }
+  .aMap.map.icon:after {
+    left: 4px;
+    top: -3px; }*/
+
+
 .mail.icon {
   margin-left: 2px;
   margin-top: 4px;
@@ -6592,7 +6630,7 @@ https://cssicon.space/#/
       left: 6px;
       background-color: white; }
 
-.picture.icon {
+/*.picture.icon {
   margin-left: 2px;
   margin-top: 2px;
   width: 15px;
@@ -6621,6 +6659,37 @@ https://cssicon.space/#/
       border-color: white;
       background-color: white; }
     .picture.icon.filled:after {
+      border-color: white; }*/
+
+.picture.icon2 {
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 15px;
+  height: 15px;
+  border: solid 1px #333333;
+  border-radius: 2px; }
+  .picture.icon2:before {
+    left: 2px;
+    top: 2px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    border: solid 1px #333333; }
+  .picture.icon2:after {
+    left: 2px;
+    top: 9px;
+    border-top: solid 1px #333333;
+    border-right: solid 1px #333333;
+    width: 12px;
+    height: 8px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .picture.icon2.filled {
+    background-color: #333333; }
+    .picture.icon2.filled:before {
+      border-color: white;
+      background-color: white; }
+    .picture.icon2.filled:after {
       border-color: white; }
 
 .watch.icon {
@@ -7289,6 +7358,16 @@ https://cssicon.space/#/
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
+.check.icon2 {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px #333333;
+  border-left: solid 1px #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
 .remove.icon {
   margin-left: 3px;
   margin-top: 10px; }
@@ -7306,4 +7385,8 @@ https://cssicon.space/#/
 .icon, .icon:before, .icon:after, .icon i, .icon i:before, .icon i:after { 
   transition: all 0.4s ease;
 }
+.icon2, .icon2:before, .icon2:after, .icon2 i, .icon2 i:before, .icon2 i:after { 
+  transition: all 0.4s ease;
+}
+
 

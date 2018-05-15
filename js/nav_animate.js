@@ -8,5 +8,19 @@ $(document).ready (function(){
 		$(this)
 		.toggleClass('browser')
 		.toggleClass('check');
-	});
+	});//end icon animation
+	
+	//link-boxContents animation
+	$('.icon2').click(function(){
+		$(this)
+		.toggleClass('picture')
+		.toggleClass('check');
+	});//end link-boxContents animation
+	
+	//link-Map animation
+	$('.aMap').click(function(){
+		$(this)
+		.toggleClass('picture')
+		.toggleClass('check');
+	});//end link-Map animation
 });//end ready
