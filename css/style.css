@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Navigation Style */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+header {
+	position: absolute;
+	z-index: 2000;
+	width: 635px;
+	top: 50px;
+	left: 30%;
+}
+#navagation {
+	margin-top: 20px;
+	width: 835px;
+	display: block;
+	list-style: none;
+	z-index: 3;
+}
+#navagation a{
+	color: #444;
+	display: block;
+/*	background: #fff;
+	background: rgba(255,255,255,0.9);*/
+	line-height: 50px;
+/*	padding: 0px 20px;*/
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	float: left;
+	text-decoration: none;
+}
+
+/* Panel Style */
+.panel {
+	min-width: 100%;
+	height: 98%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-top: -150%;
+	position: absolute;
+	background: #000;
+	box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
+	z-index: 2;
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+.panel:target {
+	margin-top: 0%;
+	background-color: #202020;
+}
+/* Content Style */
+.content {
+	right: 40px;
+	left: 100px;
+	top: 0px;
+	position: absolute;
+	padding-bottom: 30px;
+}
+.content h2{
+	font-size: 110px;
+	padding: 10px 0px 0px 0px;
+	margin-top: 102px;
+	color: #fff;
+}
+.content p{
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	display: inline-block;
+	margin: 3px 0px;
+}
+/* Home Page Style */
+
+/* Wrapper Style */
+.wrapper {
+	margin: 0 auto;
+	background: #202020;
+}
+.logo {
+	padding: 10px 0px 0px 0px;
+	margin-top: 200px;
+}
+.csliwes p{
+	font-size: 30px;
+	line-height: 38px;
+	color: white;
+	margin: 3px;
+	padding: 10px
+}
+/* Footer Style */
+footer {
+	margin: 0 auto;
+	width: 635px;
+	color: white;
+}
+footer p{
+	padding: 10px 30px;
+	font-size: 12px;
+}
+/* Change color of current item in nav */
+#home:target ~ header #navagation #link-home .iconHouse, 
+#boxArt:target ~ header #navagation .iconBrowser,
+#boxContents:target ~ header #navagation .iconContents,
+#Map:target ~ header #navagation .iconMap,
+#Game:target ~ header #navagation .iconContrast,
+#App:target ~ header #navagation .iconMobile,
+#Stats:target ~ header #navagation .iconChart{
+	box-shadow: 1px 1px 2px rgba(207,90,86,1);
+	background: rgba(204,82,128,0.9);
+}
