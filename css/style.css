@@ -91,6 +91,27 @@ header {
 	margin: 3px;
 	padding: 10px;
 }
+/* 
+**
+** Box Contents Style 
+**
+*/
+#slideNav {
+	padding: 20px;
+	display: block;
+	list-style: none;
+}
+#slideNav a{
+	width: 30px;
+	height: 30px;
+	display: block;
+	line-height: 50px;
+	padding: 0px 20px;
+	/*background: rgba(255,255,255,0.9);*/
+	margin-bottom: 6px;
+	float: left;
+	text-decoration: none;
+}
 /* Footer Style */
 footer {
 	margin: 0 auto;

@@ -1,9 +1,11 @@
 // JavaScript Document
 /*
-// Demo Slid Show JS
-// Enoch Daniel Adams
-// For Demo
-// May 11, 2018
+**
+** v1.1.0
+** Last Updated: 2018.05.15
+** Author: Enoch Daniel Adams
+** Github: https://e-noch.github.io/compiled/
+**
 */
 window.onload =inintlinks;
 // js alwyas start with var
