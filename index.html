@@ -13,11 +13,18 @@
 	<script language="javascript" type="text/javascript" src="js/nav_animate.js" ></script>
 	<script language="javascript" type="text/javascript" src="js/slideshow.js" ></script>
 	<script language="javascript" type="text/javascript">
+		//todays date function
 		function printToday() {
-				var today = new Date();
-				document.write(today.toDateString());
-			}
-	</script>
+			var today = new Date();
+			document.write(today.toDateString());
+		}//end todays date function
+	</script> 
+    <script language="javascript" type="text/javascript">
+		//Load data from the server and place the returned HTML into the matched element.
+		$(function(){
+			$("#includedContent").load("b.html"); 
+		});//end loaded HTML
+    </script> 
 </head>
 <body>
 <div class="wrapper">
@@ -70,8 +77,7 @@
 </div><!-- End App -->
 <div id="Stats" class="panel">
 	<div class="content">
-		<h2>Stats</h2>
-		<p>Some content</p>
+		<div id="includedContent"></div>
 	</div>
 </div><!-- End Stats -->
 <!-- Header with Navagation -->
@@ -96,7 +102,7 @@
 			<a id="link-App" href="#App"><div class="iconWrapper iconMobile"><div class="mobile icon"><i></i></div></div></a>
 		</li>
 		<li>
-			<a id="link-stats" href="stats.html"><div class="iconWrapper iconChart"><div class="pie-chart icon"><i></i></div></div></a>
+			<a id="link-stats" href="#Stats"><div class="iconWrapper iconChart"><div class="pie-chart icon"><i></i></div></div></a>
 		</li>
 	</ul>
 </header><!-- End Header -->
