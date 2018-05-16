@@ -1,8 +1,10 @@
 // JavaScript Document
 /*
-** Version 1.0.0
-** by Enoch Daniel Adams
-** 
+**
+** v1.0.0
+** Author: Enoch Daniel Adams
+** Last Updated: 2018.05.15
+** Github: https://e-noch.github.io/compiled/
 **
 */
 //jQuery code
@@ -26,7 +28,7 @@ $(document).ready (function(){
 	//link-Map animation
 	$('.aMap').click(function(){
 		$(this)
-		.toggleClass('picture')
+		.toggleClass('map')
 		.toggleClass('check');
 	});//end link-Map animation
 });//end ready
