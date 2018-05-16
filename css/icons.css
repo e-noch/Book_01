@@ -5486,7 +5486,7 @@ https://cssicon.space/#/
   .link.icon:after {
     right: -7px; }
 
-/*.map.icon {
+.map.icon {
   margin-left: 8px;
   margin-top: 4px;
   width: 4px;
@@ -5507,9 +5507,9 @@ https://cssicon.space/#/
     top: 1px; }
   .map.icon:after {
     left: 4px;
-    top: -3px; }*/
+    top: -3px; }
 
-.aMap.map.icon {
+/*.aMap.map.icon {
   margin-left: 8px;
   margin-top: 4px;
   width: 4px;
@@ -5530,7 +5530,7 @@ https://cssicon.space/#/
     top: 1px; }
   .aMap.map.icon:after {
     left: 4px;
-    top: -3px; }
+    top: -3px; }*/
 
 
 .mail.icon {
