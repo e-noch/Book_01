@@ -22,7 +22,12 @@
     <script language="javascript" type="text/javascript">
 		//Load data from the server and place the returned HTML into the matched element.
 		$(function(){
-			$("#includedContent").load("b.html"); 
+			$("#includedContent-a").load("a.html"); 
+			$("#includedContent-b").load("b.html"); 
+			$("#includedContent-c").load("c.html"); 
+			$("#includedContent-d").load("d.html"); 
+			$("#includedContent-e").load("e.html"); 
+			$("#includedContent-f").load("f.html"); 
 		});//end loaded HTML
     </script> 
 </head>
@@ -37,31 +42,13 @@
 <!-- Box Art -->
 <div id="boxArt" class="panel">
 	<div class="content">
-		<h2>Box Art</h2>
-		<p>Some content</p>
+		<div id="includedContent-a"></div>
 	</div>
 </div><!-- End Box Art -->
 <!-- Box -->
 <div id="boxContents" class="panel">
 	<div class="content">
-		<h2>Box Contents</h2>
-		<img alt="Vacation" id="myPicture" title="Vacation Slide Show" src="images/vac1.jpg" width="800" height="562"/>
-		<ul id="slideNav">
-			<li>
-				<a href="#" id="prevLink">
-
-					<div class="arrowLeft icon"><i></i></div>
-
-				</a>
-			</li>
-			<li>
-				<a href="#" id="nextLink">
-
-					<div class="arrowRight icon"><i></i></div>
-
-				</a>
-			</li>
-		</ul>
+		<div id="includedContent-b"></div>
 	</div>
 </div><!-- End Box Contents -->
 <!-- Map -->
@@ -87,7 +74,7 @@
 </div><!-- End App -->
 <div id="Stats" class="panel">
 	<div class="content">
-		<div id="includedContent"></div>
+		<div id="includedContent-f"></div>
 	</div>
 </div><!-- End Stats -->
 <!-- Header with Navagation -->
