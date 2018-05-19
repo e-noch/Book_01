@@ -20,13 +20,11 @@ var myImages = new Array ("./images/vac1.jpg",
 						 "./images/piz3.jpg");
 var thisPic=0;//start here
 function inintlinks(){
-	'use strict';
 	//alert("Nioce");
 	document.getElementById("prevLink").onclick=processPrevious; //look for function
 	document.getElementById("nextLink").onclick=processNext;
 }//initLinks
 function processPrevious(){
-	'use strict';
 	if (thisPic === 0){ // the image
 		thisPic=myImages.length; // the array length
 	}//if
@@ -35,7 +33,6 @@ function processPrevious(){
 	return false;
 }//processPrevious
 function processNext(){
-		'use strict';
 	thisPic++; // incress one to length or add one to current image
 	if (thisPic === myImages.length){ // reset value
 		thisPic=0;
