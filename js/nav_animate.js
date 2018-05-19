@@ -1,4 +1,4 @@
-// JavaScript Document
+//jQuery
 /*
 **
 ** v1.0.0
@@ -7,7 +7,6 @@
 ** Github: https://e-noch.github.io/compiled/
 **
 */
-//jQuery code
 $(document).ready (function(){
 	//add to hide header
 	$('header').hide().fadeIn(2000);
@@ -23,10 +22,11 @@ $(document).ready (function(){
 		$(this)
 		.toggleClass('picture')
 		.toggleClass('check');
+		
 	});//end link-boxContents animation
 	
 	//link-Map animation
-	$('.aMap').click(function(){
+	$('.iconWrapper').click(function(){
 		$(this)
 		.toggleClass('map')
 		.toggleClass('check');

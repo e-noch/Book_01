@@ -10,11 +10,14 @@ header {
 	left: 30%;
 }
 #navagation {
-	margin-top: 20px;
-	width: 835px;
+	margin: 20px auto;
+	width: 350px;
+	height: 45px;
 	display: block;
 	list-style: none;
 	z-index: 3;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.9);
 }
 #navagation a{
 	color: #444;
@@ -35,7 +38,7 @@ header {
 	height: 98%;
 	overflow-y: auto;
 	overflow-x: hidden;
-	margin-top: -150%;
+	margin-top: -250%;
 	position: absolute;
 	background: #000;
 	box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
@@ -102,6 +105,10 @@ footer p{
 	padding: 10px 30px;
 	font-size: 12px;
 }
+#link-boxContents {
+	
+}
+
 /* Change color of current item in nav */
 #home:target ~ header #navagation #link-home .iconHouse, 
 #boxArt:target ~ header #navagation .iconBrowser,
