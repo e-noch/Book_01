@@ -10,14 +10,12 @@
 window.onload =inintlinks;
 // js alwyas start with var
 //gobal array
-var myImages = new Array ("./images/vac1.jpg",
-						 "./images/vac2.jpg",
-						 "./images/vac3.jpg",
-						 "./images/vac4.jpg",
-						 "./images/vac5.jpg",
-						 "./images/piz1.jpg",
-						 "./images/piz2.jpg",
-						 "./images/piz3.jpg");
+var myImages = new Array ("./images/IMG_2155.JPG",
+						 "./images/IMG_2162.JPG",
+						 "./images/IMG_2161.JPG",
+						 "./images/IMG_2185.JPG",
+						 "./images/IMG_2179.JPG",
+						 "./images/IMG_2177.JPG");
 var thisPic=0;//start here
 function inintlinks(){
 	//alert("Nioce");
