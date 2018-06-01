@@ -11,6 +11,8 @@
 	display: block;
 	list-style: none;
 	margin-top: 0px;
+	z-index: 900;
+	position: relative;
 }
 #slideNav a{
 	width: 30px;
@@ -25,4 +27,11 @@
 	float: left;
 	text-decoration: none;
 	
+}
+#imgContainer {
+	margin: 0 auto;
+}
+#imgContainer img{
+	width: 100%;
+	height: auto;
 }
