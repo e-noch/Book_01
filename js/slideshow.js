@@ -20,8 +20,8 @@ var thisPic=0;//start here
 function inintlinks(){
 	'use strict';
 	//alert("Nioce");
-	document.getElementById("prevLink").onclick=processPrevious; //look for function
-	document.getElementById("nextLink").onclick=processNext;
+	document.getElementById("prevLink_BT").onclick=processPrevious; //look for function
+	document.getElementById("nextLink_BT").onclick=processNext;
 }//initLinks
 function processPrevious(){
 	'use strict';
