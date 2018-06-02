@@ -28,7 +28,24 @@
 			$("#includedContent-e").load("e.html"); 
 			$("#includedContent-f").load("f.html"); 
 		});//end loaded HTML
-    </script> 
+    </script>
+		<!-- The Core -->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<!-- The Libary -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script language="javascript" type="text/javascript">
+		//Running The Core 
+		$(document).ready(function(){
+			//alert("Greetings");
+			$('#accordion').accordion({
+				collapsible: true,
+				active: false,
+				animate: true
+			}); //accordion
+		}); //ready
+	</script>
 </head>
 <body>
 <div class="wrapper">
@@ -57,11 +74,37 @@
 	</div>
 </div><!-- End Map -->
 <!-- Game -->
-<div id="Game" class="panel">
+<div id="Play" class="panel">
+	<img src="images/malacandra__by_spouch-d51b37r.jpg" alt="Tree" width="100%" height="auto" >
 	<div class="content">
-		<h2>Game</h2>
-		<p>Some content</p>
-	</div>
+		<div class="main">
+			<h1><span class="mStyle">MORE</span> <br>IMAGINATION</h1>
+			<p>Because to @mirv, high performance was a must. And all the other gamers, multi-taskers and binge-watchers that just couldn’t tolerate lag agreed.</p>
+			<div id="accordion">
+				<h2>LEARN MORE</h2>
+				<div><!-- Ooen Empity Div 1 -->
+					<div class="blockTab">
+					<div class="iconItem">
+						<h3><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/108370-200.png" alt="Tree"></h3>
+					</div><!-- End iconItem -->
+					<div class="iconInfo">
+						<h4>“Superchill” Cooling</h4>
+						<p>We’re not fans of fans. They’re loud, bulky and inefficient. So, in collaboration with Intel®, we designed a unique copper heat pipe cooling system that not only allows the V to run silently at high loads without thermal throttling, it actually outperforms higher-spec devices that use fans. Check out these benchmarks.</p>
+					</div><!-- End iconInfo -->
+					</div><!-- End blockTab -->
+					<div class="blockTab">
+					<div class="iconItem">
+						<h3><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/108370-200.png" alt="Tree"></h3>
+					</div><!-- End iconItem -->
+					<div class="iconInfo">
+						<h4>“Superchill” Cooling</h4>
+						<p>We’re not fans of fans. They’re loud, bulky and inefficient. So, in collaboration with Intel®, we designed a unique copper heat pipe cooling system that not only allows the V to run silently at high loads without thermal throttling, it actually outperforms higher-spec devices that use fans. Check out these benchmarks.</p>
+					</div><!-- End iconInfo -->
+					</div><!-- End blockTab -->
+				</div><!-- End Empity Div 1 -->
+			</div><!-- End Accordion -->
+		</div><!-- End Main -->
+	</div><!-- End Content -->
 </div><!-- End Game -->
 <!-- App -->
 <div id="App" class="panel">
@@ -91,7 +134,7 @@
 			<a id="link-Map" class="aMap" href="#Map"><div class="map icon"><i></i></div></a>
 		</li>
 		<li class="iconWrapper iconContrast">
-			<a id="link-Game" href="#Game"><div class="contrast icon"><i></i></div></a>
+			<a id="link-play" href="#Play"><div class="contrast icon"><i></i></div></a>
 		</li>
 		<li class="iconWrapper iconMobile">
 			<a id="link-App" href="#App"><div class="mobile icon"><i></i></div></a>

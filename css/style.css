@@ -60,7 +60,7 @@ header {
 	position: absolute;
 	padding-bottom: 30px;
 }
-.content h2{
+.content h1{
 	font-size: 80px;
 	padding: 100px 0px 0px 0px;
 	margin-top: 102px;
@@ -95,6 +95,35 @@ header {
 	padding: 10px;
 }
 
+/* 
+**
+** Play Page Style 
+**
+*/
+.mStyle {
+    color: #ff4a3b;
+    font-size: 109px;
+    line-height: 103px;
+
+}
+.blockTab {
+	margin: 0 auto;
+	width: 702px;
+	height: 80px;
+}
+.iconItem {
+	float: left;
+	padding: 20px;
+}
+.iconInfo {
+	float: left;
+	padding: 20px;
+	margin-top: 20px;
+	width: 60%;
+}
+.iconInfo h4 {
+	padding-bottom: 10px;
+}
 /* Footer Style */
 footer {
 	margin: 0 auto;
