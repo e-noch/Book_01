@@ -7,6 +7,12 @@
 ** Author: Enoch Daniel Adams - http://e-noch.geithub.io/compiled
 ** Twitter: @dustanashes
 */
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+border: none !important;
+background: none !important;
+font-weight: normal;
+color: #454545;
+}
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
 border: none !important;
 background: none !important;
