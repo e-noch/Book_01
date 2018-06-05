@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+/* 
+** Accordion Stylesheet
+** v1.0.0
+** Last Updated: 2018-06-02
+** Author: Enoch Daniel Adams - http://e-noch.geithub.io/compiled
+** Twitter: @dustanashes
+*/
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333 !important; 
+}
