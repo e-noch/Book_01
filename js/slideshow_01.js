@@ -11,7 +11,7 @@ window.onload =inintlinks;
 // js alwyas start with var
 //gobal array
 var myImages = new Array (	
-						 "./images/IMG_2155.jpg",
+						 "./images/IMG_2155.JPG",
 						 "./images/IMG_2161.JPG",
 						 "./images/IMG_2162.JPG",
 						 "./images/IMG_2177.JPG",
