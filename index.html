@@ -9,9 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="css/footer_push.css" />
 	<link rel="stylesheet" type="text/css" href="css/icons.css" />
 	<link rel="stylesheet" type="text/css" href="css/accordion.css" />
+	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+	
 	<!-- Connection to CDN google for the jQuery Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/nav_animate.js" ></script>
+	<script language="javascript" type="text/javascript" src="js/slideshow_01.js" ></script>
 	<script language="javascript" type="text/javascript">
 		//todays date function
 		function printToday() {
@@ -22,8 +25,7 @@
     <script language="javascript" type="text/javascript">
 		//Load data from the server and place the returned HTML into the matched element.
 		$(function(){
-			$("#includedContent-a").load("a.html"); 
-			$("#includedContent-b").load("slider.html"); 
+			$("#includedContent-a").load("a.html");
 			$("#includedContent-c").load("c.html"); 
 			$("#includedContent-d").load("d.html"); 
 			$("#includedContent-e").load("e.html"); 
@@ -64,7 +66,16 @@
 <!-- Box -->
 <div id="boxContents" class="panel">
 	<div class="content">
-		<div id="includedContent-b"></div>
+		<div id="includedContent-b">
+		<div class="centered">Welcome to my Vacation Slide Show</div>
+		<img alt="Vacation" id="myPicture" title="Vacation Slide Show" src="images/IMG_2155.jpg" width="800" height="562"/>
+		<h2>
+			<a href="#" id="prevLink">&lt;&lt;</a>
+			&nbsp;
+			&nbsp;
+			<a href="#" id="nextLink">&gt;&gt;</a>
+		</h2>
+		</div>
 	</div>
 </div><!-- End Box Contents -->
 <!-- Map -->
