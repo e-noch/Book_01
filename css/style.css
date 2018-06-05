@@ -97,7 +97,7 @@ header {
 
 /* 
 **
-** Play Page Style 
+** Play Section Style 
 **
 */
 .mStyle {
@@ -109,7 +109,7 @@ header {
 .blockTab {
 	margin: 0 auto;
 	width: 702px;
-	height: 80px;
+	height: 320px;
 }
 .iconItem {
 	float: left;
@@ -123,6 +123,9 @@ header {
 }
 .iconInfo h4 {
 	padding-bottom: 10px;
+}
+.endTab {
+	margin-top: 20px;
 }
 /* Footer Style */
 footer {
