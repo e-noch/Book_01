@@ -11,16 +11,24 @@
 border: none !important;
 background: none !important;
 font-weight: normal;
-color: #454545;
+color: #ff4a3b;
 }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
 border: none !important;
 background: none !important;
 font-weight: normal;
-color: #ff4a3b;
+color: #CF5A56;
 }
 .ui-widget-content {
     border: 0px solid #333333 !important;
     background: #333333 !important;
     color: #FFFFFF; 
+}
+.iconItem {
+	width: 200px;
+	height: auto;
+}
+.iconItem img{
+	width: 100%;
+	height: auto;
 }
