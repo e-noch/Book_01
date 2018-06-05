@@ -6,9 +6,9 @@
 ** Last Updated: 2018-06-02
 ** Author: Enoch Daniel Adams - http://e-noch.geithub.io/compiled
 ** Twitter: @dustanashes
-*/
+*/ 
 .ui-widget-content {
-    border: 1px solid #dddddd;
-    background: #ffffff;
-    color: #333333 !important; 
+    border: 0px solid #333333 !important;
+    background: #333333 !important;
+    color: #FFFFFF; 
 }
