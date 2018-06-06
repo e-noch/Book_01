@@ -10,14 +10,22 @@
 $(document).ready (function(){
 	//add to hide header
 	$('header').hide().fadeIn(2000);
+	
 	//icon animation
 	$('.icon').click(function(){
+		$(this)
+		.toggleClass('home')
+		.toggleClass('home');
+		
+	});//end icon animation
+	
+	//icon animation
+	$('.icon1').click(function(){
 		$(this)
 		.toggleClass('browser')
 		.toggleClass('check');
 		
 	});//end icon animation
-	
 	
 	//link-boxContents animation
 	$('.icon2').click(function(){
