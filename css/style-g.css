@@ -3,6 +3,7 @@
 #mGallery {
 	float: left;
 	width: 90px;
+	height: 90px;
 	margin-right: 30px;
 	margin-left: 10px;
 	border-right: white 1px dotted;
@@ -12,20 +13,37 @@
 	margin: 0 0 10px 0;
 	border: 1px solid rgb(0,0,0);
 }
+.case {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	margin: 0 0 20px 0;
+	border: 1px solid #ff4a3b;
+    border-radius: 50px;
+}
+.case img {
+	position: relative;
+	bottom: 200px;
+}
 #mPhoto {
 	margin-left: 150px;
 	position: absolute;
 	z-index: -1;
 	float: left;
 	top: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 #mPhoto img {
 	width: 753px;
     height: 400px;
     position: absolute;
-    top: 7px;
+    top: 6px;
     left: -142px;
+	border: 1px solid;
+    border-radius: 25px;
 }
+
 .phone {
 	width: 800px;
 	height: auto;

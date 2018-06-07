@@ -17,7 +17,7 @@ $('#mGallery img').each(function(i) {
 	var imgFile = $(this).attr('src');
 	var preloadImage = new Image();
 	var imgExt = /(\.\w{3,4}$)/;
-	preloadImage.src = imgFile.replace(imgExt,'_h$1');
+	preloadImage.src = imgFile.replace(imgExt,'_h$1');//edit '' to change hover image
 		
 	$(this).hover(
 		function() {
@@ -32,7 +32,7 @@ $('#mGallery img').each(function(i) {
 //insert new programming below this line
 	// always start with $ sign for jQuery
 	// gallery programing
-	$('#mGallery a').click(function(evt){
+	$('#mGallery a').hover(function(evt){
 		//alert("greetings");
 		
 		// turn off the hyperlink
@@ -70,11 +70,34 @@ $('#mGallery img').each(function(i) {
 	<div class="content">
 		<div class="main">
 			<h1>App</h1>
-			<div id="mGallery"> <a href="large/slide1.jpg"><img src="small/slide1.jpg" width="70" height="70" alt="golf balls"></a> <a href="large/slide2.jpg"><img src="small/slide2.jpg" width="70" height="70" alt="rock wall"></a> <a href="large/slide3.jpg"><img src="small/slide3.jpg" width="70" height="70" alt="old course"></a> <a href="large/slide4.jpg"><img src="small/slide4.jpg" width="70" height="70" alt="tees"></a> <a href=" large/slide5.jpg"><img src="small/slide5.jpg" width="70" height="70" alt="tree"></a> <a href=" large/slide6.jpg"><img src="small/slide6.jpg" width="70" height="70" alt="ocean course"></a></div>
-			<div class="phone"><img src="images/phone.svg" alt="Malacandra Logo"><div id="mPhoto">enoch</div></div>
-		</div>
-	</div>
-
-</div>
+			<div id="mGallery"> 
+				<div class="case">
+					<a href="large/slide1.jpg">
+						<img src="small/slide1.jpg" width="568" height="320"  alt="golf balls">
+					</a>
+				</div><!-- end case --> 
+				<div class="case">
+					<a href="large/slide2.jpg"><img src="small/slide2.jpg" width="568" height="320" alt="rock wall"></a>
+				</div><!-- end case -->
+				<div class="case">
+					 <a href="large/slide3.jpg"><img src="small/slide3.jpg" width="568" height="320" alt="old course"></a>
+				</div><!-- end case -->
+				<div class="case">
+					<a href="large/slide4.jpg"><img src="small/slide4.jpg" width="568" height="320" alt="tees"></a>
+				</div><!-- end case -->
+				<div class="case">
+					 <a href=" large/slide5.jpg"><img src="small/slide5.jpg" width="568" height="320" alt="tree"></a>
+				</div><!-- end case -->
+				<div class="case">
+					<a href=" large/slide6.jpg"><img src="small/slide6.jpg" width="568" height="320" alt="ocean course"></a>
+				</div><!-- end case -->
+			  </div><!-- end mGallery -->
+			<div class="phone">
+				<img src="images/phone.svg" alt="Malacandra Logo">
+				<div id="mPhoto"></div>
+			</div><!-- end phone -->
+		</div><!-- end main -->
+	</div><!-- end content -->
+</div><!-- end aWrapper -->
 </body>
 </html>
