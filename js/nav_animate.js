@@ -48,7 +48,7 @@ $(document).ready (function(){
 		});//end footer
 	
 	//Footer heart animation
-	$('.footer .icon3').click(function(){
+	$('.icon3').click(function(){
 		$(this)
 		.toggleClass('heart')
 		.toggleClass('share-filled');
