@@ -31,7 +31,9 @@ header {
 	float: left;
 	text-decoration: none;
 }
-
+.endPie {
+	right: -5px;
+}
 /* Panel Style */
 .panel {
 	min-width: 100%;
@@ -150,7 +152,81 @@ header {
 	width: 30px;
 	overflow: hidden;
 }
-
+#wrapperFamily {
+	margin: 0 auto;
+	width: 400px;
+	height: 125px;
+}
+#wrapperFamily p {
+	z-index: 8000;
+}
+#wrapperFamily a {
+	z-index: 8000;
+}
+#agape {
+	float: left;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+	z-index: 5000;
+	height: 125px;
+	width: auto;
+}
+#agape img {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	height: 100%;
+	width: auto;
+}
+#dad {
+	float: left;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+	z-index: 2000;
+	height: 154px;
+	width: auto;
+}
+#dad img {
+	position: absolute;
+	bottom: -20px;
+	left: 80px;
+	height: 100%;
+	width: auto;
+}
+#enoch {
+	float: left;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+	z-index: 2000;
+	height: 154px;
+	width: auto;
+}
+#enoch img {
+	position: absolute;
+	bottom: -20px;
+	left: 172px;
+	height: 100%;
+	width: auto;
+}
+#mom {
+	float: left;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+	z-index: 2000;
+	height: 124px;
+	width: auto;
+}
+#mom img {
+	position: absolute;
+	bottom: -20px;
+	left: 242px;
+	height: 100%;
+	width: auto;
+}
 #link-boxContents {
 	
 }
@@ -160,7 +236,7 @@ header {
 #boxArt:target ~ header #navagation .iconBrowser,
 #boxContents:target ~ header #navagation .iconContents,
 #Map:target ~ header #navagation .iconMap,
-#Game:target ~ header #navagation .iconContrast,
+#Play:target ~ header #navagation .iconContrast,
 #App:target ~ header #navagation .iconMobile,
 #Stats:target ~ header #navagation .iconChart{
 	box-shadow: 1px 1px 2px rgba(207,90,86,1);

@@ -23,7 +23,8 @@ push {
     bottom: 25px;
     display: none;    
     position: absolute;
-	background: #171717; 
+	background: #171717;
+	overflow: hidden;
 }
 
 .footer {

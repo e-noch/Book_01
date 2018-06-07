@@ -10,7 +10,55 @@
 	<link rel="stylesheet" type="text/css" href="css/icons.css" />
 	<link rel="stylesheet" type="text/css" href="css/accordion.css" />
 	<link rel="stylesheet" type="text/css" href="css/slider.css" />
-	
+	 <style>
+  .ui-tooltip, .arrow:after {
+    background: black;
+    border: 2px solid black;
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+	width: 50px;
+	  z-index: 9000;
+	  pointer-events: none;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -30px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+  </style>
 	<!-- Connection to CDN google for the jQuery Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/nav_animate.js" ></script>
@@ -47,6 +95,31 @@
 			}); //accordion
 		}); //ready
 	</script>
+	<script>
+  $( function() {
+    $( document ).tooltip({
+      position: {
+        my: "center bottom-5",
+        at: "center top",
+        using: function( position, feedback ) {
+          $( this ).css( position );
+          $( "<div>" )
+            .addClass( "arrow" )
+            .addClass( feedback.vertical )
+            .addClass( feedback.horizontal )
+            .appendTo( this );
+        }
+      }
+    });
+  } );
+  </script>
+	  <script>
+  $( function() {
+    $( document ).tooltip({
+      track: true
+    });
+  } );
+  </script>
 </head>
 <body>
 <div class="wrapper">
@@ -150,22 +223,22 @@
 			<a id="link-home" href="#home"><div class="house icon"><i></i></div></a>
 		</li>
 		<li class="iconWrapper iconBrowser">
-			<a id="link-boxArt" href="#boxArt"><div class="browser icon"><i></i></div></a>
+			<a id="link-boxArt" href="#boxArt"><div class="browser icon1"><i></i></div></a>
 		</li>
 		<li class="iconWrapper iconContents">
 			<a id="link-boxContents" href="#boxContents" class="picture icon2"><i></i></a>
 		</li>
 		<li class="iconWrapper iconMap">
-			<a id="link-Map" class="aMap" href="#Map"><div class="map icon"><i></i></div></a>
+			<a id="link-Map" class="aMap" href="#Map"><div class="map icon5"><i></i></div></a>
 		</li>
 		<li class="iconWrapper iconContrast">
-			<a id="link-play" href="#Play"><div class="contrast icon"><i></i></div></a>
+			<a id="link-play" href="#Play"><div class="contrast icon4"><i></i></div></a>
 		</li>
 		<li class="iconWrapper iconMobile">
-			<a id="link-App" href="#App"><div class="mobile icon"><i></i></div></a>
+			<a id="link-App" href="#App"><div class="mobile icon6"><i></i></div></a>
 		</li>
-		<li class="iconWrapper iconChart">
-			<a id="link-stats" href="#Stats"><div class="pie-chart icon"><i></i></div></a>
+		<li class="iconWrapper iconChart endPie">
+			<a id="link-stats" href="#Stats"><div class="pie-chart icon7"><i></i></div></a>
 		</li>
 	</ul>
 </header><!-- End Header -->
@@ -183,9 +256,14 @@
 		<div class="vMore">
 	    	<div class="heart filled icon3"></div>
 		</div>
-	<div class="slide">
-        
-    </div><!-- end slide -->
+		<div class="slide">
+			<div id="wrapperFamily">
+				<div id="agape"><p><a href="https://www.instagram.com/agapita_luv/" title="Agape' Adams"><img src="images/family_01_0000_Background-copy.png" alt="Agape"></a></p></div>
+				<div id="dad"><p><a href="#" title="William' Adams"><img src="images/family_01_0001_Background-copy-2.png" alt="William"></a></p></div>
+				<div id="enoch"><p><a href="#" title="Enoch' Adams"><img src="images/family_01_0002_Background-copy-3.png" alt="Enoch"></a></p></div>
+				<div id="mom"><p><a href="#" title="Diane' Adams"><img src="images/family_01_0003_Layer-0-copy.png" alt="Diane"></a></p></div>
+			</div>
+		</div><!-- end slide -->
 	</div><!-- end footer -->
 </body>
 </html>

@@ -36,11 +36,32 @@ $(document).ready (function(){
 	});//end link-boxContents animation
 	
 	//link-Map animation
-	$('.iconWrapper').click(function(){
+	$('.icon5').click(function(){
 		$(this)
 		.toggleClass('map')
 		.toggleClass('check');
 	});//end link-Map animation
+	
+	//link-contrast animation
+	$('.icon4').click(function(){
+		$(this)
+		.toggleClass('contrast')
+		.toggleClass('check');
+	});//end link-contrast animation
+	
+	//link-mobile animation
+	$('.icon6').click(function(){
+		$(this)
+		.toggleClass('mobile')
+		.toggleClass('check');
+	});//end link-contrast animation
+	
+	//link-pie-chart animation
+	$('.icon7').click(function(){
+		$(this)
+		.toggleClass('pie-chart')
+		.toggleClass('check');
+	});//end link-contrast animation
 	
 	//footer slide
 		$(".vMore").click(function () {

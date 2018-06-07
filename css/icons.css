@@ -112,6 +112,62 @@ https://cssicon.space/#/
       position: absolute;
       display: block; }
 
+/*Contrast animation*/
+.icon4 {
+  position: absolute; }
+  .icon4:before, .icon4:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon4 i {
+    position: absolute; }
+    .icon4 i:before, .icon4 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
+
+/*map animation*/
+.icon5 {
+  position: absolute; }
+  .icon5:before, .icon5:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon5 i {
+    position: absolute; }
+    .icon5 i:before, .icon5 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
+
+/*phone animation*/
+.icon6 {
+  position: absolute; }
+  .icon6:before, .icon6:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon6 i {
+    position: absolute; }
+    .icon6 i:before, .icon6 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
+
+/*pie animation*/
+.icon7 {
+  position: absolute; }
+  .icon7:before, .icon7:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon7 i {
+    position: absolute; }
+    .icon7 i:before, .icon7 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
+
 
 
 .cmd.icon {
@@ -417,6 +473,25 @@ https://cssicon.space/#/
   .pie-chart.icon.filled {
     background-color: #333333; }
     .pie-chart.icon.filled:before {
+      border-color: white; }
+
+.pie-chart.icon7 {
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 15px;
+  height: 15px;
+  border: solid 1px #333333;
+  border-radius: 50%; }
+  .pie-chart.icon7:before {
+    left: 7px;
+    top: -1px;
+    width: 8px;
+    height: 8px;
+    border-left: solid 1px #333333;
+    border-bottom: solid 1px #333333; }
+  .pie-chart.icon7.filled {
+    background-color: #333333; }
+    .pie-chart.icon7.filled:before {
       border-color: white; }
 
 .bar-chart.icon {
@@ -3157,6 +3232,23 @@ https://cssicon.space/#/
   .contrast.icon.filled:before {
     background-color: #333333; }
 
+.contrast.icon4 {
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: solid 1px #333333; }
+  .contrast.icon4:before {
+    left: 8px;
+    top: 1px;
+    width: 5px;
+    height: 12px;
+    border: solid 1px #333333;
+    border-radius: 0 7px 7px 0; }
+  .contrast.icon4.filled:before {
+    background-color: #333333; }
+
 .alert-square.icon {
   margin-left: 3px;
   margin-top: 3px;
@@ -5565,6 +5657,29 @@ https://cssicon.space/#/
     left: 4px;
     top: -3px; }
 
+.map.icon5 {
+  margin-left: 8px;
+  margin-top: 4px;
+  width: 4px;
+  height: 10px;
+  border: solid 1px #333333;
+  border-radius: 1px;
+  -webkit-transform: skewY(20deg);
+  transform: skewY(20deg); }
+  .map.icon5:before, .map.icon5:after {
+    width: 4px;
+    height: 10px;
+    border: solid 1px #333333;
+    border-radius: 1px;
+    -webkit-transform: skewY(-40deg);
+    transform: skewY(-40deg); }
+  .map.icon5:before {
+    left: -6px;
+    top: 1px; }
+  .map.icon5:after {
+    left: 4px;
+    top: -3px; }
+
 /*.aMap.map.icon {
   margin-left: 8px;
   margin-top: 4px;
@@ -6553,7 +6668,7 @@ https://cssicon.space/#/
     .bag.icon.filled3:after {
       background-color: white; }
 
-.browser.icon {
+/*.browser.icon {
   margin-left: 2px;
   margin-top: 2px;
   width: 15px;
@@ -6579,6 +6694,34 @@ https://cssicon.space/#/
     .browser.icon.filled:before {
       border: solid 1px white; }
     .browser.icon.filled:after {
+      background-color: white; }*/
+
+.browser.icon1 {
+  margin-left: 2px;
+  margin-top: 2px;
+  width: 15px;
+  height: 15px;
+  border: solid 1px #333333;
+  border-radius: 50%; }
+  .browser.icon1:before {
+    left: 1px;
+    top: 1px;
+    width: 11px;
+    height: 11px;
+    border: solid 1px #333333;
+    border-radius: 85% 15%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .browser.icon1:after {
+    width: 15px;
+    height: 1px;
+    background-color: #333333;
+    top: 7px; }
+  .browser.icon1.filled {
+    background-color: #333333; }
+    .browser.icon1.filled:before {
+      border: solid 1px white; }
+    .browser.icon1.filled:after {
       background-color: white; }
 
 .tv.icon {
@@ -6650,6 +6793,37 @@ https://cssicon.space/#/
       top: -2px;
       background-color: white; }
     .mobile.icon.filled:after {
+      bottom: -3px;
+      background-color: white; }
+
+.mobile.icon6 {
+  margin-left: 4px;
+  margin-top: 0px;
+  width: 12px;
+  height: 19px;
+  border-radius: 2px;
+  border: solid 1px #333333; }
+  .mobile.icon6:before {
+    left: 5px;
+    top: 1px;
+    width: 2px;
+    height: 1px;
+    background-color: #333333; }
+  .mobile.icon6:after {
+    bottom: 1px;
+    left: 5px;
+    height: 2px;
+    width: 2px;
+    background-color: #333333;
+    border-radius: 50%; }
+  .mobile.icon6.filled {
+    height: 14px;
+    border-top: solid 3px #333333;
+    border-bottom: solid 4px #333333; }
+    .mobile.icon6.filled:before {
+      top: -2px;
+      background-color: white; }
+    .mobile.icon6.filled:after {
       bottom: -3px;
       background-color: white; }
 
@@ -7414,6 +7588,16 @@ https://cssicon.space/#/
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
+.check.icon1 {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px #333333;
+  border-left: solid 1px #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
 .check.icon2 {
   margin-left: 3px;
   margin-top: 4px;
@@ -7434,6 +7618,48 @@ https://cssicon.space/#/
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
+.check.icon4 {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px #333333;
+  border-left: solid 1px #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.check.icon5 {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px #333333;
+  border-left: solid 1px #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.check.icon6 {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px #333333;
+  border-left: solid 1px #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+
+.check.icon7 {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px #333333;
+  border-left: solid 1px #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+
 .remove.icon {
   margin-left: 3px;
   margin-top: 10px; }
@@ -7451,8 +7677,27 @@ https://cssicon.space/#/
 .icon, .icon:before, .icon:after, .icon i, .icon i:before, .icon i:after { 
   transition: all 0.4s ease;
 }
+.icon1, .icon1:before, .icon1:after, .icon1 i, .icon1 i:before, .icon1 i:after { 
+  transition: all 0.4s ease;
+}
 .icon2, .icon2:before, .icon2:after, .icon2 i, .icon2 i:before, .icon2 i:after { 
   transition: all 0.4s ease;
 }
+.icon3, .icon3:before, .icon3:after, .icon3 i, .icon3 i:before, .icon3 i:after { 
+  transition: all 0.4s ease;
+}
+.icon4, .icon4:before, .icon4:after, .icon4 i, .icon4 i:before, .icon4 i:after { 
+  transition: all 0.4s ease;
+}
+.icon5, .icon5:before, .icon5:after, .icon5 i, .icon5 i:before, .icon5 i:after { 
+  transition: all 0.4s ease;
+}
+.icon6, .icon6:before, .icon6:after, .icon6 i, .icon6 i:before, .icon6 i:after { 
+  transition: all 0.4s ease;
+}
+.icon7, .icon7:before, .icon7:after, .icon7 i, .icon7 i:before, .icon7 i:after { 
+  transition: all 0.4s ease;
+}
+
 
 
