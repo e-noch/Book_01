@@ -3,7 +3,7 @@
 #mGallery {
 	float: left;
 	width: 90px;
-	height: 90px;
+	height: auto;
 	margin-right: 30px;
 	margin-left: 10px;
 	border-right: white 1px dotted;
@@ -48,6 +48,7 @@
 	width: 800px;
 	height: auto;
 	position: relative;
+	top: 5em;
 	z-index: 1000;
 	float: left;
 	overflow: hidden;
