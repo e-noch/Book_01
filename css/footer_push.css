@@ -11,7 +11,31 @@ html, body {
 	/*But also accounting of potential margin-bottom of last child*/
 	margin-bottom: -50px;
 }
-footer,
 push {
-	height: 50px;
+	height: 30px;
+}
+
+
+.slide { 
+    height: 125px;    
+    left: 0px;
+    right:0px;
+    bottom: 25px;
+    display: none;    
+    position: absolute;
+	background: #171717; 
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;       
+	left: 0px;       
+	right: 0px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border:1px solid black;
+	display: inline-block;       
+	background: #171717;       
 }

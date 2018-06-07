@@ -19,7 +19,7 @@ $(document).ready (function(){
 		
 	});//end icon animation
 	
-	//icon animation
+	//icon Browers animation
 	$('.icon1').click(function(){
 		$(this)
 		.toggleClass('browser')
@@ -27,7 +27,7 @@ $(document).ready (function(){
 		
 	});//end icon animation
 	
-	//link-boxContents animation
+	//link-boxContents picture animation
 	$('.icon2').click(function(){
 		$(this)
 		.toggleClass('picture')
@@ -41,4 +41,16 @@ $(document).ready (function(){
 		.toggleClass('map')
 		.toggleClass('check');
 	});//end link-Map animation
+	
+	//footer slide
+		$(".vMore").click(function () {
+			$(".slide").slideToggle("slow");
+		});//end footer
+	
+	//Footer heart animation
+	$('.footer .icon3').click(function(){
+		$(this)
+		.toggleClass('heart')
+		.toggleClass('share-filled');
+	});//end footer heart animation
 });//end ready

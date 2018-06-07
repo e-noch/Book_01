@@ -128,15 +128,29 @@ header {
 	margin-top: 20px;
 }
 /* Footer Style */
-footer {
-	margin: 0 auto;
-	width: 635px;
-	color: white;
-}
-footer p{
-	padding: 10px 30px;
+
+.footer p{
+	padding: 8px 10px 0 10px;
 	font-size: 12px;
+	overflow: hidden;
+	float: right;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #7E7E7E;
 }
+.vMore {
+	float: right;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+	cursor:pointer;
+	height: 100%;
+	width: 30px;
+	overflow: hidden;
+}
+
 #link-boxContents {
 	
 }

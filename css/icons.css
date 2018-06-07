@@ -56,6 +56,10 @@ https://cssicon.space/#/
     border-color: #CF5A56;
     transition: none; }
 
+.icon3{
+	z-index: 1; }
+
+
 .icon {
   position: absolute; }
   .icon:before, .icon:after {
@@ -68,7 +72,20 @@ https://cssicon.space/#/
       content: '';
       position: absolute;
       display: block; }
-
+/*icon Browers animation*/
+.icon1 {
+  position: absolute; }
+  .icon1:before, .icon1:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon1 i {
+    position: absolute; }
+    .icon1 i:before, .icon1 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
+/*link-boxContents picture animation*/
 .icon2 {
   position: absolute; }
   .icon2:before, .icon2:after {
@@ -81,8 +98,19 @@ https://cssicon.space/#/
       content: '';
       position: absolute;
       display: block; }
-
-
+/*Footer heart animation*/
+.icon3 {
+  position: absolute; }
+  .icon3:before, .icon3:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon3 i {
+    position: absolute; }
+    .icon3 i:before, .icon3 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
 
 
 
@@ -870,6 +898,32 @@ https://cssicon.space/#/
     transform-origin: left bottom;
     transform: rotate(-30deg); }
   .share-filled.icon:after {
+    top: 2px;
+    left: 3px;
+    width: 8px;
+    height: 1px;
+    background-color: #333333;
+    transform-origin: left top;
+    transform: rotate(30deg); }
+
+
+.share-filled.icon3 {
+  margin-left: 4px;
+  margin-top: 9px;
+  width: 4px;
+  height: 4px;
+  background-color: #333333;
+  border-radius: 2px;
+  box-shadow: 9px -5px 0 0 #333333, 9px 5px 0 0 #333333; }
+  .share-filled.icon3:before {
+    top: 1px;
+    left: 3px;
+    width: 8px;
+    height: 1px;
+    background-color: #333333;
+    transform-origin: left bottom;
+    transform: rotate(-30deg); }
+  .share-filled.icon3:after {
     top: 2px;
     left: 3px;
     width: 8px;
@@ -5383,7 +5437,7 @@ https://cssicon.space/#/
     .bell.icon.filled:after {
       background-color: #333333; }
 
-.heart.icon {
+.heart.icon3 {
   margin-top: 6px;
   margin-left: 5px;
   width: 9px;
@@ -5392,7 +5446,7 @@ https://cssicon.space/#/
   border-bottom: solid 1px #333333;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
-  .heart.icon:before {
+  .heart.icon3:before {
     width: 8px;
     height: 5px;
     border-top-left-radius: 5px;
@@ -5404,7 +5458,7 @@ https://cssicon.space/#/
     border-right: solid 1px #333333;
     top: -5px;
     left: -1px; }
-  .heart.icon:after {
+  .heart.icon3:after {
     width: 5px;
     height: 8px;
     border-top-left-radius: 0px;
@@ -5416,9 +5470,9 @@ https://cssicon.space/#/
     border-bottom: solid 1px #333333;
     top: 0px;
     left: 8px; }
-  .heart.icon.filled {
+  .heart.icon3.filled {
     background-color: #333333; }
-    .heart.icon.filled:before, .heart.icon.filled:after {
+    .heart.icon3.filled:before, .heart.icon3.filled:after {
       background-color: #333333; }
 
 .print.icon {
@@ -7361,6 +7415,16 @@ https://cssicon.space/#/
   transform: rotate(-45deg); }
 
 .check.icon2 {
+  margin-left: 3px;
+  margin-top: 4px;
+  width: 14px;
+  height: 8px;
+  border-bottom: solid 1px #333333;
+  border-left: solid 1px #333333;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.check.icon3 {
   margin-left: 3px;
   margin-top: 4px;
   width: 14px;
