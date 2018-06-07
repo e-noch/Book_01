@@ -67,6 +67,7 @@ header {
 	padding: 100px 0px 0px 0px;
 	margin-top: 102px;
 	color: #fff;
+	text-transform: uppercase;
 }
 .content p{
 	font-size: 18px;
@@ -99,14 +100,28 @@ header {
 
 /* 
 **
+** Box Art Section Style 
+**
+*/
+.bSpecial {
+	width: 1130px;
+	height: 1000px;
+	right: 0 !important;
+	overflow: hidden;
+}
+
+/* 
+**
 ** Play Section Style 
 **
 */
 .mStyle {
     color: #ff4a3b;
-    font-size: 109px;
     line-height: 103px;
 
+}
+.mTag {
+	width: 300px;
 }
 .blockTab {
 	margin: 0 auto;
