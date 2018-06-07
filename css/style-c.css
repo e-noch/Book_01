@@ -35,3 +35,21 @@
 	width: 100%;
 	height: auto;
 }
+#imgContainer a {
+	width: 20px;
+	height: 20px;
+	background: rgba(255,255,255,0.4);
+    border-radius: 8px;
+}
+#animate {
+	position: absolute;
+	left: 20%;
+    top: 18%;
+	padding: 30px;
+}
+#animate2 {
+	position: absolute;
+	left: 40%;
+    top: 48%;
+	padding: 30px;
+}

@@ -3,14 +3,39 @@
 <head>
 <meta charset="UTF-8">
 <title>Map</title>
-	<link rel="stylesheet" type="text/css" href="css/style-c.css" />
+<link rel="stylesheet" type="text/css" href="css/style-c.css" />
+<link rel="stylesheet" type="text/css" href="css/icons.css" />
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script language="javascript" type="text/javascript">
+//jquery code
+		$(document).ready(function(){
+			//alert("Hello Ken");
+			$("#animate").click(function(){
+				//alert("Hello Ken");
+				//Robot1
+				$("#imgContainer").animate({width:3000},"fast")
+				$("#imgContainer").animate({height:2000},"fast")
+			});//button click
+			$("#animate2").click(function(){
+				//alert("Hello Ken");
+				//Robot1
+				$("#imgContainer").animate({width:4000},"fast")
+				$("#imgContainer").animate({height:6000},"fast")
+			});//button click
+		});//ready
+</script>
 </head>
 
 <body>
 	<h1>Map</h1>
 	<div id="imgContainer">
-			<img alt="Box Contents" id="myPicture" title="Malacandra Box Contents" src="images/map.svg" />
-		</div>
+		<a href="#" id="animate"><div class="search filled plusI icon"><i></i></div></a>
+		<!--<a href="#" id="animate2"><div class="search filled plusI icon"><i></i></div></a>-->
+		<img alt="Box Contents" id="mMap" title="Malacandra Map" src="images/map.svg" />
+	</div>
 	<p>My Contents</p>
 </body>
 </html>
