@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body {
+	background: #ccc;
+}
 #block {
 	width: 470px;
 	height: 300px;
@@ -8,6 +10,7 @@
 /*	background: #00FF46;
 	border: 10px solid #000000;*/
 	color: #fff;
+	font-size: 18px;
 }
 label {
 	display: block;
@@ -20,7 +23,10 @@ label {
 input {
 	display: block;
 	float: left;
+	border: solid 1px #ccc;
+ 	border-radius: 4px;
+  	height: 20px;
 }
 #confirm {
-	background-color: #ce3700;
+	background-color: #CF5A56;
 }
