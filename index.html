@@ -11,12 +11,14 @@
 	<link rel="stylesheet" type="text/css" href="css/accordion.css" />
 	<link rel="stylesheet" type="text/css" href="css/slider.css" />
 	<link rel="stylesheet" type="text/css" href="css/tooltip.css" />
+	<link rel="stylesheet" type="text/css" href="css/onload.css" />
 	<!-- Connection to CDN google for the jQuery Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/nav_animate.js" ></script>
 	<script language="javascript" type="text/javascript" src="js/slideshow_01.js" ></script>
 	<script language="javascript" type="text/javascript" src="js/accordion.js" ></script>
 	<script language="javascript" type="text/javascript" src="js/tooltip.js" ></script>
+	<script language="javascript" type="text/javascript" src="js/onload.js" ></script>
 	<script language="javascript" type="text/javascript">
 		//todays date function
 		function printToday() {
@@ -40,6 +42,7 @@
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
+	<div id="page">
 <div class="wrapper">
 <!-- Home -->
 <div id="home" class="content">
@@ -59,10 +62,10 @@
 		<h1>Book Box</h1>
 		<img alt="Vacation" id="myPicture" title="Vacation Slide Show" src="images/IMG_2155.JPG" width="800" height="562"/>
 		<h2>
-			<button type="button" id="processPrevious" onclick="inintlinks();">&lt;&lt;</button>
+			<button type="button" id="processPrevious" onclick="inintlinks();">precious</button>
 			&nbsp;
 			&nbsp;
-			<button type="button" id="processNext" onclick="inintlinks();">&gt;&gt;</button>
+			<button type="button" id="processNext" onclick="inintlinks();">next</button>
 		</h2>
 	</div>
 </div><!-- End Box Contents -->
@@ -160,6 +163,7 @@
 		</li>
 	</ul>
 </header><!-- End Header -->
+	
 	<push></push>
 </div><!-- End Wrapper -->	
 	<div class="footer">
@@ -183,5 +187,7 @@
 			</div>
 		</div><!-- end slide -->
 	</div><!-- end footer -->
+		</div>
+	<div id="loading"></div>
 </body>
 </html>

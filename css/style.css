@@ -84,7 +84,7 @@ header {
 /* Wrapper Style */
 .wrapper {
 	margin: 0 auto;
-	background: #202020;
+	background: #202020 !important;
 }
 .logo {
 	padding: 10px 0px 0px 0px;
