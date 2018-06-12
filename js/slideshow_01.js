@@ -22,8 +22,8 @@ $(document).ready(function(){
 	function inintlinks(){
 		'use strict';
 		//alert("Nioce");
-		document.getElementById("processPrevious").onclick=processPrevious; //look for function
-		document.getElementById("processNext").onclick=processNext;
+		document.getElementById("processPrevious").onmousedown=processPrevious; //look for function
+		document.getElementById("processNext").onmousedown=processNext;
 	}//initLinks
 	function processPrevious(){
 		'use strict';
