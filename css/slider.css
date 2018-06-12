@@ -1,5 +1,28 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-
+/* 
+**
+** Box Contents Section Style 
+**
+*/
+.slideB {
+	position: absolute;
+	top: 500px;
+}
+.leftB {
+	float: left;
+}
+.rightB {
+	float: right;
+	right: 30px;
+}
+#processPrevious {
+	padding: 2em;
+}
+#processNext {
+	padding: 2em;
+}
+.iconWrapSlide {
+	padding: 0 20px 20px 0;
+}
