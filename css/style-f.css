@@ -21,3 +21,6 @@ input {
 	display: block;
 	float: left;
 }
+#confirm {
+	background-color: #ce3700;
+}
