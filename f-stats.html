@@ -3,8 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Development Value Calculator</title>
-<link rel="stylesheet" type="text/css" href="css/style-f.css" /> 
-<script type="text/javascript" src="js/deValue.js" language="javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/style-f.css" /> 
+	<script type="text/javascript" src="js/deValue.js" language="javascript"></script>
+<script type="text/javascript">
+
+        // Called on form's `onsubmit`
+        function tosubmit() {
+            // Getting the value of your text input
+            var mytext = document.getElementById("mytext").value;
+
+            // Storing the value above into localStorage
+            localStorage.setItem("mytext", mytext);
+
+            return true;
+        }
+
+    </script> 
 </head>
 
 <body>
@@ -26,8 +40,18 @@
 	<input type="text" id="futurevalue" /><br />
 	
 	<label> &nbsp;</label>
-	<input type="button" id="calculate" value="Calculate"/><br />
+	
+	<!-- INLCUDING `ONSUBMIT` EVENT + ACTION URL --> 
+        <form name="myform" onsubmit="tosubmit();" action="confirm.html">
+
+            <input  id="mytext" type="text" name="data">
+            <input type="submit" value="Submit">
+
+	</form>
 	
 </div>
+  
+        
+
 </body>
 </html>
