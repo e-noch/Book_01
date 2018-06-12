@@ -10,59 +10,13 @@
 	<link rel="stylesheet" type="text/css" href="css/icons.css" />
 	<link rel="stylesheet" type="text/css" href="css/accordion.css" />
 	<link rel="stylesheet" type="text/css" href="css/slider.css" />
-	 <style>
-  .ui-tooltip, .arrow:after {
-    background: black;
-    border: 2px solid black;
-  }
-  .ui-tooltip {
-    padding: 10px 20px;
-    color: white;
-    border-radius: 20px;
-    font: bold 14px "Helvetica Neue", Sans-Serif;
-    text-transform: uppercase;
-    box-shadow: 0 0 7px black;
-	width: 50px;
-	  z-index: 9000;
-	  pointer-events: none;
-  }
-  .arrow {
-    width: 70px;
-    height: 16px;
-    overflow: hidden;
-    position: absolute;
-    left: 50%;
-    margin-left: -25px;
-    bottom: -16px;
-  }
-  .arrow.top {
-    top: -16px;
-    bottom: auto;
-  }
-  .arrow.left {
-    left: 20%;
-  }
-  .arrow:after {
-    content: "";
-    position: absolute;
-    left: 20px;
-    top: -30px;
-    width: 25px;
-    height: 25px;
-    box-shadow: 6px 5px 9px -9px black;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  .arrow.top:after {
-    bottom: -20px;
-    top: auto;
-  }
-  </style>
+	<link rel="stylesheet" type="text/css" href="css/tooltip.css" />
 	<!-- Connection to CDN google for the jQuery Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/nav_animate.js" ></script>
 	<script language="javascript" type="text/javascript" src="js/slideshow_01.js" ></script>
+	<script language="javascript" type="text/javascript" src="js/accordion.js" ></script>
+	<script language="javascript" type="text/javascript" src="js/tooltip.js" ></script>
 	<script language="javascript" type="text/javascript">
 		//todays date function
 		function printToday() {
@@ -79,47 +33,11 @@
 			$("#includedContent-g").load("g-app.html"); 
 		});//end loaded HTML
     </script>
-		<!-- The Core -->
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<!-- The Core -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<!-- The Libary -->
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script language="javascript" type="text/javascript">
-		//Running The Core 
-		$(document).ready(function(){
-			//alert("Greetings");
-			$('#accordion').accordion({
-				collapsible: true,
-				active: false,
-				animate: true
-			}); //accordion
-		}); //ready
-	</script>
-	<script>
-  $( function() {
-    $( document ).tooltip({
-      position: {
-        my: "center bottom-5",
-        at: "center top",
-        using: function( position, feedback ) {
-          $( this ).css( position );
-          $( "<div>" )
-            .addClass( "arrow" )
-            .addClass( feedback.vertical )
-            .addClass( feedback.horizontal )
-            .appendTo( this );
-        }
-      }
-    });
-  } );
-  </script>
-	  <script>
-  $( function() {
-    $( document ).tooltip({
-      track: true
-    });
-  } );
-  </script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -141,10 +59,10 @@
 		<h1>Book Box</h1>
 		<img alt="Vacation" id="myPicture" title="Vacation Slide Show" src="images/IMG_2155.JPG" width="800" height="562"/>
 		<h2>
-			<a href="#" id="prevLink">&lt;&lt;</a>
+			<button type="button" id="processPrevious">&lt;&lt;</button>
 			&nbsp;
 			&nbsp;
-			<a href="#" id="nextLink">&gt;&gt;</a>
+			<button type="button" id="processNext">&gt;&gt;</button>
 		</h2>
 	</div>
 </div><!-- End Box Contents -->

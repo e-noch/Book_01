@@ -11,7 +11,7 @@ window.onload =inintlinks;
 // js alwyas start with var
 //gobal array
 var myImages = new Array (	
-						 "./images/IMG_2155.jpg",
+						 "./images/IMG_2155.JPG",
 						 "./images/IMG_2161.JPG",
 						 "./images/IMG_2162.JPG",
 						 "./images/IMG_2177.JPG",
@@ -21,8 +21,8 @@ var thisPic=0;//start here
 function inintlinks(){
 	'use strict';
 	//alert("Nioce");
-	document.getElementById("prevLink").onclick=processPrevious; //look for function
-	document.getElementById("nextLink").onclick=processNext;
+	document.getElementById("processPrevious").onclick=processPrevious; //look for function
+	document.getElementById("processNext").onclick=processNext;
 }//initLinks
 function processPrevious(){
 	'use strict';
