@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css" />
 	<link rel="stylesheet" type="text/css" href="css/tooltip.css" />
 	<link rel="stylesheet" type="text/css" href="css/onload.css" />
+	<link rel="stylesheet" type="text/css" href="css/confirm.css" />
 	<!-- Connection to CDN google for the jQuery Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/nav_animate.js" ></script>
@@ -60,6 +61,13 @@
 		<h1>Development <br >Breakdown</h1>
 		<div id="piechart"></div>
 	</div>
+<headertwo>
+	<ul id="navagationtwo">
+		<li class="iconWrapper iconHouse">
+			<a onclick="goBack()"><div class="arrowLeft icon"><i></i></div></a>
+		</li>
+	</ul>
+</headertwo><!-- End Header -->
 <script type="text/javascript">
 // Load google charts
 google.charts.load('current', {'packages':['corechart']});
@@ -77,12 +85,17 @@ function drawChart() {
 ]);
 
   // Optional; add a title and set the width and height of the chart
-  var options = {'title':'My Average Day', 'width':450, 'height':400};
+  var options = {'title':'', 'width':850, 'height':500};
 
   // Display the chart inside the <div> element with id="piechart"
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
   chart.draw(data, options);
 }
+</script>
+	<script>
+		function goBack() {
+    		window.history.back();
+		}	
 </script>
 </body>
 </html>

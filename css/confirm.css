@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+headertwo {
+	position: absolute;
+	z-index: 2000;
+	top: 50px;
+	width: 100%;
+}
+#navagationtwo {
+	margin-left: 102px;
+	width: 45px;
+	height: 45px;
+	display: block;
+	list-style: none;
+	z-index: 3;
+	border-radius: 5px;
+	background: rgba(255,255,255,0.9);
+}
+rect {
+x: 0px;
+y: 0px;
+width: 450px;
+height: 400px;
+stroke: none;
+stroke-width: 0px;
+fill: rgb(32,32,32) !important;
+}
