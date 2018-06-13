@@ -57,6 +57,7 @@
 </script>-->
 </head>
 <body onload="init();">
+<div id="page">
 	<div class="content">
 		<h1>Development <br >Breakdown</h1>
 		<div id="piechart"></div>
@@ -68,6 +69,8 @@
 		</li>
 	</ul>
 </headertwo><!-- End Header -->
+</div><!-- end page -->
+<div id="loading"></div>
 <script type="text/javascript">
 // Load google charts
 google.charts.load('current', {'packages':['corechart']});
@@ -92,10 +95,10 @@ function drawChart() {
   chart.draw(data, options);
 }
 </script>
-	<script>
-		function goBack() {
-    		window.history.back();
-		}	
+<script>
+	function goBack() {
+		window.history.back();
+	}	
 </script>
 </body>
 </html>
