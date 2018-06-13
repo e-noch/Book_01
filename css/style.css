@@ -5,12 +5,11 @@
 header {
 	position: absolute;
 	z-index: 2000;
-	width: 635px;
 	top: 50px;
-	left: 30%;
+	width: 100%;
 }
 #navagation {
-	margin: 20px auto;
+	margin: 0 auto;
 	width: 350px;
 	height: 45px;
 	display: block;
