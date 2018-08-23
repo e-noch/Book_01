@@ -55,11 +55,14 @@ header {
 }
 /* Content Style */
 .content {
-	right: 40px;
-	left: 100px;
-	top: 0px;
+	/* right: 40px; */
+	/* left: 100px; */
+	/* top: 0px; */
 	position: absolute;
-	padding-bottom: 30px;
+	/* padding-bottom: 30px; */
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
 }
 .content h1{
 	font-size: 80px;
@@ -84,17 +87,26 @@ header {
 .wrapper {
 	margin: 0 auto;
 	background: #202020 !important;
+	width: 100%;
 }
-.logo {
-	padding: 10px 0px 0px 0px;
-	margin-top: 200px;
+.bSlider {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
-.csliwes p{
-	font-size: 30px;
-	line-height: 38px;
-	color: white;
-	margin: 3px;
-	padding: 10px;
+video {
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.img01 {
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+.img01 img{
+	margin: 0 auto;
+	width: 100%;
 }
 
 /* 
@@ -142,9 +154,12 @@ header {
 .endTab {
 	margin-top: 20px;
 }
-/* Footer Style */
-
-.footer p{
+/* 
+**
+** Footer Style 
+**
+*/
+footer p{
 	padding: 8px 10px 0 10px;
 	font-size: 12px;
 	overflow: hidden;
@@ -153,6 +168,79 @@ header {
 	box-sizing: border-box;
 	color: #7E7E7E;
 }
+/* Email Signup Style */
+#email {
+	color: #fff;
+}
+.eSign {
+	margin: 0 auto;
+	position: absolute;
+	bottom:  30px;
+	height-min: 70px;
+	height: auto;
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid black;
+	display: inline-block;
+	background: #1C1C1C;
+	overflow: hidden;
+}
+.eSign p {
+	float: left;
+	font-size: 16px;
+	color: #fff;
+	padding: 12px 20px;
+	margin: 14px 0;
+}
+.eInput {
+	float: left;
+	padding: 12px 20px;
+	width: 400px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #7C3B74;
+	border-top: 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+	background: #1C1C1C;
+	resize: vertical;
+	color: #fff;
+}
+input[type=submit] {
+    width: 200px;
+    background-color: #1C1C1C;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+	border: 2px solid #7C3B74;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#close {
+    float: right;
+    display: inline-block;
+    padding: 12px 20px;
+	margin: 14px 0;
+	color: #fff;
+	position: relative;
+	right: 20px;
+    background: #1C1C1C;
+	cursor: pointer;
+}
+/* View More Style */
 .vMore {
 	float: right;
 	-webkit-box-sizing: border-box;
