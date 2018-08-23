@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="css/slider.css" />
 	<link rel="stylesheet" type="text/css" href="css/tooltip.css" />
 	<link rel="stylesheet" type="text/css" href="css/onload.css" />
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+ 	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 	<!-- Connection to CDN google for the jQuery Library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/nav_animate.js" ></script>
@@ -41,14 +43,28 @@
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<!-- The Libary -->
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
+	<script language="javascript" type="text/javascript" src="assets/slick/slick.min.js"></script>
+	<script language="javascript" type="text/javascript" src="js/slickInitialization.js"></script>
 </head>
 <body>
 	<div id="page">
 <div class="wrapper">
 <!-- Home -->
 <div id="home" class="content">
-	<div class="logo"><img src="images/logo.svg" alt="Malacandra Logo"></div>
-	<div class="csliwes"><p>Inspired by C.S. Lewis’s <br>Out of The Silent Planet</p></div>
+	<div class="bSlider">
+		
+		<div class="img01"><div><img src="images/rawpixel-455996-unsplash.jpg" alt="Price Tage Image"></div></div><!-- End Slide 03 -->
+		<div><div class="img01"><img src="images/_MG_0305.JPG" alt="Book Box"></div></div><!-- End Slide 02 -->
+		<div>
+			<div id="img01">
+				<video width="1280" height="720" controls="" poster="images/_MG_0322.JPG">
+				  <source src="video/portal-gameplay-trailer.mp4" type="video/mp4">
+				  Your browser does not support HTML5 video.
+				</video>
+			</div><!-- End Media Video-->
+		</div><!-- End Slide 01 -->
+	</div>
 </div>
 <!-- End Home -->
 <!-- Box Art -->
@@ -140,7 +156,9 @@
 		<div id="includedContent-f"></div>
 	</div>
 </div><!-- End Stats -->
-<!-- Header with Navagation -->
+<!-- HTML5 tag Header 
+	 Navagation
+-->
 <header>
 	<ul id="navagation">
 		<li class="iconWrapper iconHouse">
@@ -168,15 +186,38 @@
 </header><!-- End Header -->
 	
 	<push></push>
-</div><!-- End Wrapper -->	
-	<div class="footer">
+</div><!-- End Wrapper -->
+<!-- HTML5 tag section 
+	 Email 
+-->
+<section id="email">
+	<div class="eSign">
+		<div>
+		<span id="close" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;">x</span>
+			<div id="eForm">
+				<p>Be the first to recive updates about Malacandra</p>
+			<form action="/action_page.php">
+				<div class="eInput">
+				<input type="text" name="fname" placeholder="Your email address">
+				</div>
+				<div class="eInput">
+				<input type="submit">
+				</div>
+			</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- HTML5 tag Footer 
+	 About Slide  
+-->
+	<footer>
 		<p>
 			<script type="text/javascript" language="javascript">
 				//print copy right and date
 				document.write('Created by Redeemed Design Co. &copy; ')
 				printToday();
 			</script>
-			
 		</p>
 		<div class="vMore">
 	    	<div class="heart filled icon3"></div>
@@ -189,7 +230,7 @@
 				<div id="mom"><p><a href="#" title="Diane' Adams"><img src="images/family_01_0003_Layer-0-copy.png" alt="Diane"></a></p></div>
 			</div>
 		</div><!-- end slide -->
-	</div><!-- end footer -->
+	</footer><!-- end footer -->
 	</div><!-- end page -->
 <div id="loading"></div>
 <script language="javascript" type="text/javascript" src="js/slideshow_01.js" ></script>
