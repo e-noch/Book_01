@@ -1,59 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
-
+#pageOuter {
+	height: 100%
+}
+#pageContainer {
+	width: 1200px;
+	position: relative;
+	padding: 56px 14px 15px;
+}
+main {
+	margin: 0 auto;
+	text-align: left;
+}
 /* 
 **
-** Box Contents Style 
+** Hero Image Style 
 **
 */
-#slideNav {
-	padding: 20px;
-	display: block;
-	list-style: none;
-	margin-top: 0px;
-	z-index: 900;
-	position: relative;
-}
-#slideNav a{
-	width: 30px;
-	height: 30px;
-	display: block;
-	line-height: 50px;
-	padding: 0px 20px;
-	color: #fff;
-	/*background: rgba(255,255,255,0.9);*/
-	margin-top: 0px;
-	margin-bottom: 6px;
-	float: left;
-	text-decoration: none;
-	
-}
-#imgContainer {
-	margin: 0 auto;
-}
-#imgContainer img{
-	width: 100%;
-	height: auto;
-}
-#imgContainer a {
-	width: 20px;
-	height: 20px;
-	background: rgba(255,255,255,0.4);
-    border-radius: 8px;
-}
-#animate {
-	position: absolute;
-	left: 20%;
-    top: 48%;
-	padding: 30px;
-}
-#animate2 {
-	position: absolute;
-	left: 40%;
-    top: 48%;
-	padding: 30px;
-}
-
 .heroImg {
 	margin: 0 auto;
 	width: 100%;
@@ -69,4 +32,24 @@
 .heroImg img{
 	width: 150%;
 	height: auto;
+}
+/* 
+**
+** Dashboard Left Section Style 
+**
+*/
+.dashboardLeft {
+	float: left;
+	width: 450px;
+}
+
+/* 
+**
+** Time Line Right Section Style 
+**
+*/
+.timeLineRight {
+	float: left;
+	width: 550px;
+	margin: 0 10px;
 }
