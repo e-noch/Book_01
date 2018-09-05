@@ -15,7 +15,7 @@
 #pageContainer {
 	width: 1200px;
 	position: relative;
-	padding: 56px 14px 15px;
+	padding: 56px 14px 30px 0;
 	margin: 0 auto;
 }
 main {
@@ -37,7 +37,7 @@ header {
 	background: url(images/MG_0337.JPG);
 	background-repeat: no-repeat;
 	background-position: bottom center;
-	border-bottom: 1px solid;
+	border-bottom: 2px solid;
 	border-bottom-color: #7C3B74;
 }
 .heroImg img{
@@ -53,7 +53,22 @@ header {
 	float: left;
 	width: 450px;
 }
-
+.dashboardLeft ul{
+	list-style: none;
+	text-decoration: none;
+}
+.bread {
+	color: #A2A2A2;
+}
+.dashboardLeft li{
+	width: 308px;
+	height: 100%;
+}
+.dashboardLeft details{
+	float: right;
+	position: relative;
+	bottom: 34px;
+}
 /* 
 **
 ** Time Line Right Section Style 
@@ -65,11 +80,36 @@ header {
 	margin: 0 10px;
 }
 
-/* 
-**
-** Hero Image Style 
-**
-*/
-.bread {
-	color: #A2A2A2;
+
+.dashboardLeft p{
+	width: 200px;
+	font-size: 21px;
+}
+
+button{
+	font-size: 16px;
+}
+
+.rulesButton  {
+	color: #fff;
+	padding: 3px 10px;
+	height: 30px;
+	width: 10px;
+	border: 2px solid #7C3B74;
+	background-color: #1C1C1C;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+}
+.rbtxt {
+	position: relative;
+	z-index: 6;
+}
+.backback {
+	width: 190px;
+	height: 20px;
+	position: relative;
+    bottom: 20px;
+    z-index: 2;
+	background-color: #1C1C1C;
 }
