@@ -77,24 +77,28 @@ header {
 }
 .rulesButton  {
 	color: #fff;
-	padding: 3px 10px;
+	padding: 3px 11px;
 	height: 30px;
-	width: 10px;
+	width: 86px;
 	border: 2px solid #7C3B74;
 	background-color: #1C1C1C;
 	position: relative;
 	z-index: 1;
 	border-radius: 5px;
 }
-.rbtxt {
+.rBTxt {
+	width: 120px;
+	height: auto;
 	position: relative;
 	z-index: 6;
+	bottom: 23px;
 }
 .backback {
-	width: 190px;
-	height: 20px;
+	width: 113px;
+	height: 30px;
 	position: relative;
-    bottom: 20px;
+    top: 0;
+	right: 13px;
     z-index: 2;
 	background-color: #1C1C1C;
 }
