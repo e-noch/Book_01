@@ -8,6 +8,9 @@
 body {
 	background-color: #202020;
 }
+a {
+	text-decoration: none;
+}
 #pageOuter {
 	height: 100%;
 	width: 100%;
@@ -38,7 +41,8 @@ header {
 	overflow: hidden;
 	background: url(https://e-noch.github.io/Book_01/images/SideBox.JPG);
 	background-repeat: no-repeat;
-	background-position: bottom center;
+	background-position: center 54%;
+	background-size: 1777px;
 	border-bottom: 2px solid;
 	border-bottom-color: #7C3B74;
 }
@@ -85,6 +89,7 @@ header {
 	position: relative;
 	z-index: 1;
 	border-radius: 5px;
+	margin: 0 0 0 140px;
 }
 .rBTxt {
 	width: 120px;
