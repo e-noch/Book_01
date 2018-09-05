@@ -5,11 +5,13 @@
 ** Page Structure Style 
 **
 */
+body {
+	background-color: #202020;
+}
 #pageOuter {
 	height: 100%;
 	width: 100%;
 	background-color: #202020;
-	overflow: auto;
 	color: #fff;
 }
 #pageContainer {
@@ -34,7 +36,7 @@ header {
 	width: 100%;
 	height: 120px;
 	overflow: hidden;
-	background: url('Book_01/images/_MG_0337.JPG');
+	background: url(https://e-noch.github.io/Book_01/images/_MG_0337.JPG);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	border-bottom: 2px solid;
@@ -69,27 +71,10 @@ header {
 	position: relative;
 	bottom: 34px;
 }
-/* 
-**
-** Time Line Right Section Style 
-**
-*/
-.timeLineRight {
-	float: left;
-	width: 550px;
-	margin: 0 10px;
-}
-
-
 .dashboardLeft p{
 	width: 200px;
 	font-size: 21px;
 }
-
-button{
-	font-size: 16px;
-}
-
 .rulesButton  {
 	color: #fff;
 	padding: 3px 10px;
@@ -113,3 +98,14 @@ button{
     z-index: 2;
 	background-color: #1C1C1C;
 }
+/* 
+**
+** Time Line Right Section Style 
+**
+*/
+.timeLineRight {
+	float: left;
+	width: 550px;
+	margin: 0 10px;
+}
+
