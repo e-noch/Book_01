@@ -69,16 +69,70 @@ header {
 .dashboardLeft li{
 	width: 308px;
 	height: 100%;
+	padding: 10px;
 }
 .dashboardLeft details{
 	float: right;
 	position: relative;
 	bottom: 34px;
 }
+/* 
+** Dashboard Left Section Line Highlight Style 
+*/
 .dashboardLeft p{
 	width: 200px;
 	font-size: 21px;
 }
+.sLHPosition {
+	position: relative;
+	right: 184px;
+}
+.sLHighlight  {
+	color: #fff;
+	padding: 3px 11px;
+	height: 65px;
+	width: 1px;
+	border: 2px solid #7C3B74;
+	background-color: #1C1C1C;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	margin: 0 0 0 140px;
+}
+.lHighlightTxt {
+	width: 120px;
+	height: auto;
+	position: relative;
+	z-index: 6;
+	bottom: 44px;
+}
+.backback01 {
+	width: 24px;
+	height: 45px;
+	position: relative;
+    top: 12px;
+	right: 10px;
+    z-index: 2;
+	background-color: #1C1C1C;
+}
+.C01 {
+	border-color: #EA983E;
+}
+.C02 {
+	border-color: #89C045;
+}
+.C03 {
+	border-color: #52A769;
+}
+.C04 {
+	border-color: #3275B8;
+}
+.C05 {
+	border-color: #585858;
+}
+/* 
+** Dashboard Left Section Button Style 
+*/
 .rulesButton  {
 	color: #fff;
 	padding: 3px 11px;
