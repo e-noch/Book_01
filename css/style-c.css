@@ -87,7 +87,7 @@ header {
 	position: relative;
 	right: 184px;
 }
-.sLHighlight  {
+.sLHighlight {
 	color: #fff;
 	padding: 3px 11px;
 	height: 65px;
@@ -166,9 +166,118 @@ header {
 ** Time Line Right Section Style 
 **
 */
+.module {
+	float: left;
+	width: 600px;
+	height: 200px;
+	margin: 0;
+}
+.module summary{
+	float: right;
+	margin: 0;
+	position: relative;
+	z-index: 200;
+	bottom: 73px;
+	right: 20px;
+}
 .timeLineRight {
 	float: left;
 	width: 550px;
 	margin: 0 10px;
 }
+.cBadge {
+	width: 82px;
+	height: 62px;
+	border-radius: 20px;
+	background-color: #EA983E;
+	position: relative;
+	left: 0;
+	float: left;
+}
+.userBadge {
+	width: 59px;
+	height: 59px;
+	position: relative;
+	left: 30px;
+	overflow: hidden;
+	border-radius: 50px;
+	border: 2px solid #202020;
+	margin-right: 20px;
+}
+.userBadge img{
+	width: 70px;
+	height: 70px;
+}
+.userContent {
+	margin: 0 20px;
+	width: 300px;
+	position: relative;
+	left: 20px;
+	z-index: 1;
+}
+.userName {
+	font-size: 16px;
+	position: relative;
+	top: 0px;
+}
+.userPost {
+	font-size: 39px;
+	position: relative;
+	bottom: 0px;
+}
+.pCSummary {
+	float: right;
+	position: relative;
+	z-index: 2;
+}
+/* 
+** Feed Section Left Highlight Style 
+*/
+.sLHPosition02 {
+	position: relative;
+	right: 134px;
+}
+.sLHighlight02  {
+	color: #fff;
+	padding: 3px 11px;
+	height: 65px;
+	width: 14px;
+	border: 2px solid #7C3B74;
+	background-color: #1C1C1C;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	margin: 0 0 0 140px;
+}
+.lHighlightTxt02 {
+	width: 120px;
+	height: auto;
+	position: relative;
+	z-index: 6;
+	bottom: 72px;
+	right: 65px;
+}
+.lHighlightTxt02 ul {
+	list-style: none;
+	line-height: 20px;
+}
+.backback02 {
+	width: 24px;
+	height: 45px;
+	position: relative;
+    top: 12px;
+	right: 14px;
+    z-index: 3;
+	background-color: #1C1C1C;
+}
+.pSTxt {
+	color: red;
+	font-size: 14px;
+	float: left;
+}
 
+.iconContainer {
+	position: relative;
+	top: 10px;
+	color: #fff;
+}

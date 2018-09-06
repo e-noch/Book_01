@@ -21,6 +21,15 @@ https://cssicon.space/#/
 	margin: 0 5px 5px 0;
 	transition: border-color 0.4s ease-out;
 	transform: scale(1, 1);
+}
+.iconWrapper001 {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 21px;
+	height: 21px;
+	color: #fff;
+}
   /* transform: scale(4,4); */
   /* &:before {
     content: '';
