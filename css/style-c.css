@@ -261,6 +261,10 @@ header {
 	list-style: none;
 	line-height: 20px;
 }
+.lHighlightTxt02 li {
+	height: 12px;
+	width: 50px;
+}
 .backback02 {
 	width: 24px;
 	height: 45px;
@@ -274,10 +278,10 @@ header {
 	color: red;
 	font-size: 14px;
 	float: left;
+	margin: 3px;
 }
 
 .iconContainer {
 	position: relative;
-	top: 10px;
 	color: #fff;
 }
