@@ -56,7 +56,7 @@ https://cssicon.space/#/
             transform: rotate(45deg);
     border-radius: 2px;
     transition: all 0.3s ease;
-  }*/ }
+  }*/ 
 
   .iconWrapper, .icon, .icon2{
     z-index: 1; }
@@ -66,6 +66,8 @@ https://cssicon.space/#/
     transition: none; }
 
 .icon3{
+	z-index: 1; }
+.icon002{
 	z-index: 1; }
 
 
@@ -176,8 +178,19 @@ https://cssicon.space/#/
       content: '';
       position: absolute;
       display: block; }
-
-
+/*lightning animation*/
+.icon002 {
+  position: absolute; }
+  .icon002:before, .icon002:after {
+    content: '';
+    position: absolute;
+    display: block; }
+  .icon002 i {
+    position: absolute; }
+    .icon002 i:before, .icon002 i:after {
+      content: '';
+      position: absolute;
+      display: block; }
 
 .cmd.icon {
   margin-left: 8px;
@@ -3104,6 +3117,13 @@ https://cssicon.space/#/
   height: 6px;
   border-top: solid 1px #333333;
   border-right: solid 1px #333333; }
+.lightning002.icon002 {
+  margin-left: 5px;
+  margin-top: 12px;
+  width: 3px;
+  height: 6px;
+  border-top: solid 1px #fff;
+  border-right: solid 1px #fff; }
   .lightning.icon:before {
     left: 6px;
     top: -11px;
@@ -3111,6 +3131,13 @@ https://cssicon.space/#/
     height: 6px;
     border-left: solid 1px #333333;
     border-bottom: solid 1px #333333; }
+  .lightning002.icon002:before {
+    left: 6px;
+    top: -11px;
+    width: 3px;
+    height: 6px;
+    border-left: solid 1px #fff;
+    border-bottom: solid 1px #fff; }
   .lightning.icon:after {
     width: 1px;
     height: 12px;
@@ -3119,6 +3146,14 @@ https://cssicon.space/#/
     transform-origin: left bottom;
     transform: rotate(31deg);
     box-shadow: 6px 4px 0 0 #333333; }
+  .lightning002.icon002:after {
+    width: 1px;
+    height: 12px;
+    background-color: #fff;
+    top: -13px;
+    transform-origin: left bottom;
+    transform: rotate(31deg);
+    box-shadow: 6px 4px 0 0 #fff; }
 
 .lightning-filled.icon {
   margin-left: 5px;
