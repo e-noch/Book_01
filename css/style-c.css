@@ -117,19 +117,19 @@ header {
 	background-color: #1C1C1C;
 }
 .C01 {
-	border-color: #EA983E;
+	border-color: #EA983E !important;
 }
 .C02 {
-	border-color: #89C045;
+	border-color: #89C045 !important;
 }
 .C03 {
-	border-color: #52A769;
+	border-color: #52A769 !important;
 }
 .C04 {
-	border-color: #3275B8;
+	border-color: #3275B8 !important;
 }
 .C05 {
-	border-color: #585858;
+	border-color: #585858 !important;
 }
 /* 
 ** Dashboard Left Section Button Style 
@@ -211,7 +211,7 @@ header {
 }
 .userContent {
 	margin: 0 20px;
-	width: 300px;
+	width: 330px;
 	position: relative;
 	left: 20px;
 	z-index: 1;
@@ -368,4 +368,19 @@ header {
 	left: 190px;
 	margin: 0;
     padding: 0;
+}
+.CBG01 {
+	background-color: #EA983E !important;
+}
+.CBG02 {
+	background-color: #89C045 !important;
+}
+.CBG03 {
+	background-color: #52A769 !important;
+}
+.CBG04 {
+	background-color: #3275B8 !important;
+}
+.CBG05 {
+	background-color: #585858 !important;
 }
