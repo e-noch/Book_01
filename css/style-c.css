@@ -280,6 +280,10 @@ header {
 	font-size: 14px;
 	float: left;
 	margin: 4px;
+	line-height: 0px !important;
+}
+.content p{
+	
 }
 .iconContainer {
 	position: relative;
