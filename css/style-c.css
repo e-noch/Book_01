@@ -65,6 +65,7 @@ header {
 }
 .bread {
 	color: #A2A2A2;
+	margin: 20px;
 }
 .dashboardLeft li{
 	width: 308px;
@@ -143,7 +144,7 @@ header {
 	position: relative;
 	z-index: 1;
 	border-radius: 5px;
-	margin: 0 0 0 140px;
+	margin: 0 0 40px 140px;
 }
 .rBTxt {
 	width: 120px;
@@ -240,9 +241,9 @@ header {
 .sLHighlight02  {
 	color: #fff;
 	padding: 3px 11px;
-	height: 65px;
-	width: 14px;
-	border: 2px solid #7C3B74;
+	height: 80px;
+	width: 25px;
+	border: 2px solid #EA983E;
 	background-color: #1C1C1C;
 	position: relative;
 	z-index: 1;
@@ -254,8 +255,8 @@ header {
 	height: auto;
 	position: relative;
 	z-index: 6;
-	bottom: 72px;
-	right: 65px;
+	bottom: 90px;
+	right: 28px;
 }
 .lHighlightTxt02 ul {
 	list-style: none;
@@ -266,10 +267,10 @@ header {
 	width: 50px;
 }
 .backback02 {
-	width: 24px;
-	height: 45px;
+	width: 21px;
+	height: 69px;
 	position: relative;
-    top: 12px;
+    top: 6px;
 	right: 14px;
     z-index: 3;
 	background-color: #1C1C1C;
@@ -278,10 +279,89 @@ header {
 	color: red;
 	font-size: 14px;
 	float: left;
-	margin: 3px;
+	margin: 4px;
 }
-
 .iconContainer {
 	position: relative;
 	color: #fff;
+	height: 20px;
+    width: 8px;
+    padding: 0;
+    margin: 17px 18px 14px 31px;
+}
+/* 
+** Feed Left Data Module Style 
+*/
+.dateModule {
+	width: 420px;
+	height: 60px;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	border-bottom: 2px solid #171717;
+}
+.categoryTag {
+	
+}
+.sLHighlight003  {
+	color: #fff;
+	padding: 3px 11px;
+	height: 30px;
+	width: 3px;
+	border: 2px solid #EA983E;
+	background-color: #1C1C1C;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	margin: 10px 166px;
+}
+.lHighlightTxt003 {
+	width: 120px;
+	height: auto;
+	position: relative;
+	z-index: 6;
+	bottom: 19px;
+	right: 1px;
+}
+.categoryTag p {
+	font-size: 12px;
+}
+.backback003 {
+	width: 21px;
+	height: 28px;
+	position: relative;
+    top: 1px;
+	left: 14px;
+    z-index: 3;
+	background-color: #1C1C1C;
+}
+.lastComment {
+	float: right;
+	display: inline-block;
+	width: 200px;
+	position: relative;
+	bottom: 30px;
+	
+}
+.lastComment p {
+	width: 74px;
+	height: 20px;
+	font-size: 12px;
+	display: inline-block;
+	float: right;
+}
+
+.iconContainer003 {
+	position: relative;
+	bottom: 5px;
+	left: 20px;
+	margin: 0;
+    padding: 0;
+}
+
+.iconContainer0030 {
+	position: relative;
+	bottom: 5px;
+	left: 190px;
+	margin: 0;
+    padding: 0;
 }
