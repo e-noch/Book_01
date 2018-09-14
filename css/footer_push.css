@@ -9,11 +9,10 @@ html, body {
 	min-height: 100%;
 	/*Equal to height of footer*/
 	/*But also accounting of potential margin-bottom of last child*/
-	margin-bottom: -400px;
-	overflow: hidden;
+	margin-bottom: -50px;
 }
 push {
-	height: 600px;
+	height: 50px;
 }
 
 
@@ -25,13 +24,12 @@ push {
     display: none;    
     position: absolute;
 	background: #171717;
-	overflow: hidden;
 }
 
 footer {
 	position: absolute;
 	bottom: 0px;
-	height: 30px;
+	height: 50px;
 	width: 100%;       
 	left: 0px;       
 	right: 0px;
@@ -39,5 +37,5 @@ footer {
 	box-sizing: border-box;
 	border:1px solid black;
 	display: inline-block;       
-	background: #171717;
+	background: #171717 !important;
 }
