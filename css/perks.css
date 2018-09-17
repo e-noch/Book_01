@@ -61,10 +61,10 @@ body {
 
 
 /*
-*
-* User Action Style
-*
-*/
+ *
+ * User Action Style
+ *
+ */
 .sectionTitle {
 	font-size: 38px;
 	font-weight: 500;
@@ -156,26 +156,26 @@ input[type=submit] {
 }
 
 /*
-*
-* About Perks Section Style
-*
-*/
+ *
+ * About Perks Section Style
+ *
+ */
 .aboutPerksTxt p{
 	width: 200px;
 }
 
 /*
-* Medium Arrow Style
-*/
+ * Medium Arrow Style
+ */
 .mArrow {
 	font-family: 'Fredoka dingbats' Fallback, sans-serif;
 }
 
 /*
-*
-* Perk Container
-*
-*/
+ *
+ * Perk Container
+ *
+ */
 .container {
 	
 }

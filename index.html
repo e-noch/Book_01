@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Book 1 | Malacandra Product Display</title>
 <meta name="viewport" content="width=device-width,user-scalable=no">
-	<!-- Favicon & App Icon -->
+	<!-- The Favicon & App Icon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="images/Favicon-App_Icon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="images/Favicon-App_Icon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/Favicon-App_Icon/apple-icon-72x72.png">
@@ -22,8 +22,7 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/Favicon-App_Icon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	
-	
+	<!-- The Style -->
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/HTML5_Reset.css" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" >
@@ -64,9 +63,11 @@
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<!-- The Libary -->
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	
+	<!-- The slider -->
 	<script language="javascript" type="text/javascript" src="assets/slick/slick.min.js"></script>
 	<script language="javascript" type="text/javascript" src="js/slickInitialization.js"></script>
+	<!-- The Lazy Loading Images -->
+	<script language="javascript" type="text/javascript" src="js/lazy-loading-images.js"></script>
 </head>
 <body>
 	<div id="page">
@@ -74,8 +75,18 @@
 <!-- Home -->
 <div id="home" class="content">
 	<div class="bSlider">
-		<div class="img01"><div><img src="images/rawpixel-455996-unsplash.jpg" alt="Price Tage Image"></div></div><!-- End Slide 03 -->
-		<div><div class="img01"><img src="images/MG0305.JPG" alt="Book Box"></div></div><!-- End Slide 02 -->
+		
+		<div>
+			<div class="img01">
+				<img src="blank.gif" data-src="images/rawpixel-455996-unsplash.jpg" alt="Price Tage Image">
+				<img class="lazy" src="placeholder-image.jpg" data-src="images/rawpixel-455996-unsplash.jpg" data-srcset="image-to-lazy-load-2x.jpg 2x, image-to-lazy-load-1x.jpg 1x" alt="I'm an image!">
+			</div>
+		</div><!-- End Slide 03 -->
+		
+		<div>
+		<div class="img01"><img src="blank.gif" data-src="images/MG0305.JPG" alt="Book Box"></div>
+		</div><!-- End Slide 02 -->
+		
 		<div>
 		<div id="img01">
 			<video width="1280" height="720" controls="" poster="images/MG0322.JPG">
