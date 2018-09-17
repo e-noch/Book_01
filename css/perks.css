@@ -158,7 +158,6 @@ input[type=submit] {
     height: 60px;
     border-radius: 5px;
 }
-}
 
 /*
 *
@@ -167,4 +166,11 @@ input[type=submit] {
 */
 .aboutPerksTxt p{
 	width: 50px;
+}
+
+/*
+* Medium Arrow Style
+*/
+.mArrow {
+	font-family: 'Fredoka dingbats' Fallback, sans-serif;
 }
