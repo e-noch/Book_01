@@ -165,7 +165,7 @@ input[type=submit] {
 *
 */
 .aboutPerksTxt p{
-	width: 50px;
+	width: 200px;
 }
 
 /*
@@ -173,4 +173,21 @@ input[type=submit] {
 */
 .mArrow {
 	font-family: 'Fredoka dingbats' Fallback, sans-serif;
+}
+
+/*
+*
+* Perk Container
+*
+*/
+.container {
+	
+}
+
+.leftPerkImg {
+	
+}
+.leftPerkImg img{
+	width: 100%;
+	height: auto;
 }
