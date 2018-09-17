@@ -14,9 +14,8 @@ body {
 .landing {
 	width: 100%;
 	background-color: #7C3B74;
+	padding: 206px 0px 0px 0px;
 	color: #ffffff;
-	position: relative;
-	top: 206px;
 }
 .pWrapper {
 	width: 100%;
