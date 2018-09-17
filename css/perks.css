@@ -1,11 +1,15 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'Fredoka';
+  src: url('Fredoka dingbats.otf'); 
+  src: url('FredokaOne-Regular.otf');
+}
 /* CSS Document */
 
 body {
 	font-family: "HelveticaNue-light", "Helvectica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucide Grande", sans-serif;
 	font-weight: 300;
 }
-
 
 .landing {
 	width: 100%;
