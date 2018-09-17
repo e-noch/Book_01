@@ -30,6 +30,18 @@ https://cssicon.space/#/
 	height: 21px;
 	color: #fff;
 }
+.iconWrapper002 {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding: 82px;
+	border-radius: 5px;
+	margin: 0 5px 5px 0;
+	transition: border-color 0.4s ease-out;
+	transform: scale(1, 1);
+}
   /* transform: scale(4,4); */
   /* &:before {
     content: '';

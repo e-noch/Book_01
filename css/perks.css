@@ -1,16 +1,166 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
+body {
+	font-family: "HelveticaNue-light", "Helvectica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucide Grande", sans-serif;
+	font-weight: 300;
+}
 
 
 .landing {
 	width: 100%;
-	height: 820px;
+	height: 1100px;
 	background-color: #7C3B74;
+	padding: 206px 0px 0px 0px;
+	color: #ffffff;
+	overflow: visible;
+	z-index: 1;
 }
 .pWrapper {
 	width: 100%;
 	height: 700px;
 	background-color: #7C3B74;
+}
+
+.bCrumbs h4{
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.goalCircle {
+	width: 190px;
+	height: 190px;
+	border: 2px solid #202020;
+	border-radius: 190px;
+	text-align: center;
+}
+
+.raised p{
+	font-size: 150px;
+	font-weight: 900;
+}
+
+.raisedBox {
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid #7C3B74;
+	border-radius: 5px;
+	background-color: #202020;
+}
+.raisedBox p{
+	font-size: 30px;
+	margin-top: 3px;
+    margin-bottom: 3px;
+}
+.orBox {
+	width: 400px !important;
+}
+.rbUser {
+	
+}
+
+
+/*
+*
+* User Action Style
+*
+*/
+.sectionTitle {
+	font-size: 38px;
+	font-weight: 500;
+	margin: 80px 0 0 0;
+}
+
+.dNote {
+	background-color: #202020;
+	border-radius: 5px;
+}
+.dNote p{
+	padding: 20px;
+}
+
+.dAmount {
+	display: block;
+	width: auto;
+    height: 20px;
+}
+.dAmount p{
+	float: left;
+}
+
+
+
+.sLHPosition {
+	position: relative;
+	right: 143px;
+}
+
+.sLHighlight {
+	color: #fff;
+	padding: 3px 11px;
+	height: 65px;
+	width: 1px;
+	border: 2px solid #7C3B74;
+	background-color: #1C1C1C;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	    /* margin: 0px 0 0 0px; */
+    bottom: 20px;
+    left: 142px;
+}
+
+.backback01 {
+	width: 24px;
+	height: 45px;
+	position: relative;
+    top: 5px;
+	right: 10px;
+    z-index: 2;
+	background-color: #1C1C1C;
+}
+
+.lHighlightTxt {
+	width: 120px;
+	height: auto;
+	position: relative;
+	z-index: 6;
+	bottom: 30px;
+}
+
+/*
+*
+* Form Style
+*
+*/
+form {
+	position: relative;
+	bottom: 110px;
+}
+input[type=text] {
+	color: #ffffff;
+	border: 2px solid #7C3B74;
+	border-radius: 5px;
+	background: #1C1C1C;
+	position: relative;
+    padding: 19px 19px 19px 32px;
+	width: 100%;
+}
+input[type=submit] {
+	position: relative;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+}
+
+/*
+*
+* About Perks Section Style
+*
+*/
+.aboutPerksTxt p{
+	width: 50px;
 }
