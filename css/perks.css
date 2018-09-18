@@ -177,17 +177,22 @@ input[type=submit] {
 
 /*
  *
- * Perk Container
+ * Perk One Style
  *
  */
-.container {
-	
+.p1 {
+	padding: 120px 0 0 0;
+	background-color: #202020;
+	color: #ffffff;
 }
 
 .leftPerkImg {
-	
+	max-width: 808px;
+	height: auto;
 }
 .leftPerkImg img{
 	width: 100%;
 	height: auto;
 }
+
+
