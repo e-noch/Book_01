@@ -152,6 +152,7 @@ input[type=submit] {
     height: 60px;
     border-radius: 5px;
 	background-color: #fff;
+	color: #1C1C1C;
 }
 
 /*
@@ -446,4 +447,5 @@ input.p2SectionFormSubmit[type=submit] {
     border-radius: 5px;
     left: 20px;
 	background-color: #fff;
+	color: #1C1C1C;
 }
