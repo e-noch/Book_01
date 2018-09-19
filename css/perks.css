@@ -522,7 +522,7 @@ input.p2SectionFormSubmit[type=submit] {
 	background-color: #7C3B74;
 	color: #ffffff;
 	position: relative;
-	bottom: 20px;
+	top: 45px;
 	border-top: 2px solid #fff;
 }
 
