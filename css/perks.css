@@ -181,7 +181,7 @@ input[type=submit] {
  *
  */
 .p1 {
-	padding: 120px 0 0 0;
+	padding: 120px 0 120px 0;
 	background-color: #202020;
 	color: #ffffff;
 }
@@ -194,5 +194,44 @@ input[type=submit] {
 	width: 100%;
 	height: auto;
 }
+/*
+ * Perk Side Content Box
+ */
+.sLHPosition02 {
+	padding: 20px;
+	position: relative;
+}
 
+.sLHighlight02 {
+	color: #fff;
+	padding: 0px 20px;
+   	height: 281px;
+    width: 255px;
+	border: 2px solid #7C3B74;
+	background-color: #202020;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	    /* margin: 0px 0 0 0px; */
+    bottom: 20px;
+    left: 3px;
+}
+
+.backback02 {
+	width: 304px;
+    height: 268px;
+	position: relative;
+    top: 5px;
+	right: 47px;
+    z-index: 2;
+	background-color: #202020;
+}
+
+.lHighlightTxt02 {
+	width: 233px;
+	height: auto;
+	position: relative;
+	z-index: 6;
+	bottom: 250px;
+}
 
