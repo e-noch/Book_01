@@ -250,6 +250,10 @@ input[type=submit] {
  */
 .p2 {
 	padding: 120px 0 120px 0;
+	overflow: hidden;
+	background: url(https://e-noch.github.io/Book_01/images/Black Background Outline Path 1130.png);
+	background-repeat: no-repeat;
+	background-position: left 54%;
 }
 
 .leftPerkImg02 {
