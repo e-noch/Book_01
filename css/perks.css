@@ -204,12 +204,12 @@ input[type=submit] {
 /*
  * Perk Side Content Box
  */
-.sLHPosition02 {
+.sLHPosition002 {
 	padding: 20px;
 	position: relative;
 }
 
-.sLHighlight02 {
+.sLHighlight002 {
 	color: #fff;
 	padding: 0px 20px;
    	height: 281px;
@@ -224,7 +224,7 @@ input[type=submit] {
     left: 3px;
 }
 
-.backback02 {
+.backback002 {
 	width: 304px;
     height: 268px;
 	position: relative;
@@ -234,7 +234,7 @@ input[type=submit] {
 	background-color: #202020;
 }
 
-.lHighlightTxt02 {
+.lHighlightTxt002 {
 	width: 233px;
 	height: auto;
 	position: relative;
@@ -286,12 +286,12 @@ input[type=submit] {
 .pBox02:hover p{
 	
 }
-.sLHPosition03 {
+.sLHPosition003 {
 	padding: 20px;
 	position: relative;
 }
 
-.sLHighlight03 {
+.sLHighlight003 {
 	color: #fff;
 	padding: 0px 20px;
    	height: 281px;
@@ -305,7 +305,7 @@ input[type=submit] {
     left: 3px;
 }
 
-/*.backback03 {
+/*.backback003 {
 	width: 304px;
     height: 268px;
 	position: relative;
@@ -315,7 +315,7 @@ input[type=submit] {
 	background-color: #fff;
 }*/
 
-.lHighlightTxt03 {
+.lHighlightTxt003 {
 	width: 233px;
 	height: auto;
 	position: relative;
