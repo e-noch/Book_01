@@ -274,10 +274,10 @@ input[type=submit] {
 .pBox02 {
 	text-decoration: none;
 }
-.pBox02 .sLHighlight03:hover {
+.pBox02 .sLHighlight0003:hover {
 	background-color: #7C3B74;
 }
-.pBox02 .sLHighlight03:hover p{
+.pBox02 .sLHighlight0003:hover p{
 	color: #fff !important;
 }
 .pBox02 p{
@@ -299,7 +299,7 @@ input[type=submit] {
 	border: 2px solid #7C3B74;
 	position: relative;
 	z-index: 1;
-	border-radius: 5px;
+	border-radius: 5px 5px 0 0;
 	    /* margin: 0px 0 0 0px; */
     bottom: 20px;
     left: 3px;
@@ -325,24 +325,110 @@ input[type=submit] {
 /*
  * Perk Two Form Style
  */
-form {
-	position: relative;
-	bottom: 110px;
+.pBox020 {
+	text-decoration: none;
 }
-input[type=text] {
+.pBox020 .sLHighlight0003:hover {
+	background-color: #7C3B74;
+}
+.pBox020 .sLHighlight0003:hover p{
+	color: #fff !important;
+}
+.pBox020 p{
+	color: #202020;
+}
+.pBox020:hover p{
+	
+}
+.dNote02 {
+	width: 255px;
+    height: auto;
+    background-color: #202020;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+    margin: 23px;
+    bottom: 64px;
+}
+.dNote02 p{
+	padding: 20px;
+	color: #fff;
+}
+
+.dAmount02 {
+	display: block;
+	width: auto;
+    height: 20px;
+}
+.dAmount02 p{
+	float: left;
+}
+/*
+ * Perk Side Content Box
+ */
+.sLHPosition010 {
+	padding: 20px;
+	position: relative;
+}
+
+.sLHighlight010 {
+	color: #fff;
+    padding: 0px 20px;
+    height: 52px;
+    width: 53px;
+    border: 2px solid #7C3B74;
+    background-color: #202020;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    margin: 0px 0 0 20px;
+    bottom: 119px;
+    left: 2px;
+}
+
+.backback010 {
+	width: 34px;
+    height: 42px;
+    position: relative;
+    bottom: -3px;
+    right: 1px;
+    z-index: 2;
+    background-color: #202020;
+}
+
+.lHighlightTxt010 {
+	width: 83px;
+    height: auto;
+    position: relative;
+    z-index: 6;
+    bottom: 45px;
+    padding: 15px;
+	
+}
+
+.lHighlightTxt010 p{
+	color: #fff;
+}
+
+form.p2SectionForm {
+	position: relative;
+	bottom: 168px;
+}
+input.p2SectionFormAmount[type=text] {
 	color: #ffffff;
 	border: 2px solid #7C3B74;
 	border-radius: 5px;
-	background: #1C1C1C;
+	background: #202020;
 	position: relative;
-    padding: 35px 0 28px 32px;
-	width: 100%;
+    padding: 12px 0 12px 21px;
+    width: 212px;
+    bottom: 27px;
 }
-input[type=submit] {
+input.p2SectionFormSubmit[type=submit] {
 	position: relative;
-	margin: 0;
-    padding: 0;
-    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    width: 259px;
     height: 60px;
     border-radius: 5px;
+    left: 20px;
 }
