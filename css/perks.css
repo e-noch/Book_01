@@ -253,6 +253,7 @@ input[type=submit] {
 	width: 100%;
 	height: auto;
 	overflow: hidden;
+	background-color: #ffffff;
 	background: url(https://e-noch.github.io/Book_01/images/Black-Background-Outline-Path-1130_2x.png);
 	background-repeat: no-repeat;
 	background-position: left;
