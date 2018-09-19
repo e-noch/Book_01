@@ -268,3 +268,81 @@ input[type=submit] {
 	height: 100%;
 		
 }
+/*
+ * Perk Side Content Box
+ */
+.pBox02 {
+	text-decoration: none;
+}
+.pBox02 .sLHighlight03:hover {
+	background-color: #7C3B74;
+}
+.pBox02 .sLHighlight03:hover p{
+	color: #fff !important;
+}
+.pBox02 p{
+	color: #202020;
+}
+.pBox02:hover p{
+	
+}
+.sLHPosition03 {
+	padding: 20px;
+	position: relative;
+}
+
+.sLHighlight03 {
+	color: #fff;
+	padding: 0px 20px;
+   	height: 281px;
+    width: 255px;
+	border: 2px solid #7C3B74;
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	    /* margin: 0px 0 0 0px; */
+    bottom: 20px;
+    left: 3px;
+}
+
+/*.backback03 {
+	width: 304px;
+    height: 268px;
+	position: relative;
+    top: 5px;
+	right: 47px;
+    z-index: 2;
+	background-color: #fff;
+}*/
+
+.lHighlightTxt03 {
+	width: 233px;
+	height: auto;
+	position: relative;
+	z-index: 6;
+	bottom: 0px;
+}
+/*
+ * Perk Two Form Style
+ */
+form {
+	position: relative;
+	bottom: 110px;
+}
+input[type=text] {
+	color: #ffffff;
+	border: 2px solid #7C3B74;
+	border-radius: 5px;
+	background: #1C1C1C;
+	position: relative;
+    padding: 35px 0 28px 32px;
+	width: 100%;
+}
+input[type=submit] {
+	position: relative;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
