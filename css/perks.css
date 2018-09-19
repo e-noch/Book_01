@@ -194,7 +194,7 @@ input[type=submit] {
 }
 
 .leftPerkImg {
-	width: 778px;
+	width: 680px;
 	height: auto;
 }
 .leftPerkImg img{
@@ -242,3 +242,22 @@ input[type=submit] {
 	bottom: 250px;
 }
 
+
+/*
+ *
+ * Perk Section 2 Style
+ *
+ */
+.p2 {
+	padding: 120px 0 120px 0;
+}
+
+.leftPerkImg02 {
+	width: auto;
+	height: 508px;
+}
+.leftPerkImg02 img{
+	width: auto;
+	height: 100%;
+		
+}
