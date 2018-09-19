@@ -174,7 +174,20 @@ input[type=submit] {
 	width: 100%;
 	height: auto;
 }
-
+/*
+ * Small Arrow Style
+ */
+.mArrow020 {
+	    /* float: right; */
+    width: 120px;
+    height: auto;
+	position: relative;
+    top: 180px;
+}
+.mArrow020 img{
+	width: 100%;
+	height: auto;
+}
 /*
  *
  * Perk One Style
