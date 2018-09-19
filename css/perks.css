@@ -254,9 +254,8 @@ input[type=submit] {
 	height: auto;
 	overflow: hidden;
 	background-color: #ffffff;
-	background: url(https://e-noch.github.io/Book_01/images/Black-Background-Outline-Path-1130_2x.png);
-	background-repeat: no-repeat;
-	background-position: left;
+	background: url(https://e-noch.github.io/Book_01/images/Black-Background-Outline-Path-1130_2x.png) right 70% no-repeat, url(https://e-noch.github.io/Book_01/images/Black-Background-Outline-Path-1130_2x.png) right 50% no-repeat, url(https://e-noch.github.io/Book_01/images/Black-Background-Outline-Path-1131_3x.png) right 30% no-repeat;
+	background-size: cover;
 }
 
 .leftPerkImg02 {
