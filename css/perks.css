@@ -453,3 +453,93 @@ input.p2SectionFormSubmit[type=submit] {
 	background-color: #fff;
 	color: #1C1C1C;
 }
+/*
+ *
+ * Perk Three Style
+ *
+ */
+.p030 {
+	padding: 150px 0 0 0;
+	background-color: #202020;
+	color: #ffffff;
+}
+#sgBox {
+	position: relative;
+	top: 149px;
+    z-index: 2;
+}
+/*
+ * Text Arrow Style
+ */
+.tArrow030 {
+    width: 90%;
+    height: auto;
+	position: relative;
+    top: 180px;
+}
+.tArrow030 p{
+	font-size: 145px;
+	font-weight: 100;
+	color: #7C3B74;
+	text-transform: uppercase;
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 150px */
+@media screen and (min-width: 601px){
+	.tArrow030 p{
+		font-size: 145px;
+		font-weight: 100;
+	}
+}
+/* If the screen size is 600px wide or less, set the font-size of <div> to 70px */
+@media screen and (max-width: 600px){
+	.tArrow030 p{
+		font-size: 70px;
+		font-weight: 200;
+	}
+}
+.tArrow030 img{
+	width: 100%;
+	height: auto;
+}
+.crosshairs {
+	width: 893px;
+    height: auto;
+    position: relative;
+    bottom: 83px;
+}
+.crosshairs img{
+	width: 100%;
+	height: auto;
+}
+
+/*
+ *
+ * Perk Four Style
+ *
+ */
+.p040 {
+	padding: 0px 0 120px 0;
+	background-color: #7C3B74;
+	color: #ffffff;
+	position: relative;
+	bottom: 20px;
+	border-top: 2px solid #fff;
+}
+
+.leftPerkImg0040 {
+	width: 1021px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 189px;
+}
+.leftPerkImg0040 img{
+	width: 100%;
+	height: auto;
+}
+
+.rightPerkPledge040 {
+	position: relative;
+	bottom: 20px;
+}
