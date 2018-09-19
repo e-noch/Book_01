@@ -426,7 +426,7 @@ input[type=submit] {
 
 form.p2SectionForm {
 	position: relative;
-	bottom: 168px;
+	bottom: 203px;
 }
 input.p2SectionFormAmount[type=text] {
 	color: #ffffff;
@@ -436,7 +436,8 @@ input.p2SectionFormAmount[type=text] {
 	position: relative;
     padding: 12px 0 12px 21px;
     width: 212px;
-    bottom: 27px;
+	height: 52px;
+    bottom: 0px;
 }
 input.p2SectionFormSubmit[type=submit] {
 	position: relative;
