@@ -185,6 +185,7 @@ input[type=submit] {
 	background-color: #202020;
 	color: #ffffff;
 }
+
 @media (max-width: 768px) {
 	.leftPerkImg {
 		width: 443px !important;
